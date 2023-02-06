@@ -142,7 +142,7 @@ const RenderProducts = (indexProduct, data, state, onRemove, onPressMinusAmount,
           <View style={[cStyles.column_justify_start, {backgroundColor: '#18504D', paddingHorizontal:10, paddingVertical:10, borderRadius:10,} ]}>
             <IconF name={"trash-alt"}
               size={Devices.fS(14)}
-              color={'#000'}
+              color={'#fff'}
               type={"regular"}
               onPress={() => onRemove(data)} />
           </View>
@@ -223,12 +223,12 @@ export const ViewCart = ({
         style={{backgroundColor:'#18504D'}}
         titleComponent={
           <Body style={styles.con_header_center}>
-            <Title><CText style={[cStyles.txt_title_header, {color: '#000'}]} i18nKey={'cart'} /></Title>
+            <Title><CText style={[cStyles.txt_title_header, {color: '#fff'}]} i18nKey={'cart'} /></Title>
             {state._products.length > 0 &&
               <View style={[cStyles.row_align_center, cStyles.mt_5]}>
-                <CText style={[styles.txt_num_cart_header, {color:'#000'}]}>{data.totalProducts}</CText>
-                <CText style={[styles.txt_num_cart_header, {color:'#000'}]}>{" "}</CText>
-                <CText style={[styles.txt_num_cart_header, {color:'#000'}]} i18nKey={'items'} />
+                <CText style={[styles.txt_num_cart_header, {color:'#fff'}]}>{data.totalProducts}</CText>
+                <CText style={[styles.txt_num_cart_header, {color:'#fff'}]}>{" "}</CText>
+                <CText style={[styles.txt_num_cart_header, {color:'#fff'}]} i18nKey={'items'} />
               </View>
             }
           </Body>
@@ -302,15 +302,15 @@ export const ViewCart = ({
                 { flex: .6 }
                 ]}>
                   {currencyPosition === Currency.left &&
-                    <Text style={[styles.txt_group_right, styles.txt_group_subtotal, { color: Colors.WHITE_COLOR }]}>
+                    <Text style={[styles.txt_group_right, styles.txt_group_subtotal, { color: Colors.BLACK_COLOR }]}>
                       {symbol}
                     </Text>
                   }
-                  <Text style={[styles.txt_group_right, styles.txt_group_subtotal, { color: Colors.WHITE_COLOR }]}>
+                  <Text style={[styles.txt_group_right, styles.txt_group_subtotal, { color: Colors.BLACK_COLOR }]}>
                     {provisionalPrice}
                   </Text>
                   {currencyPosition === Currency.right &&
-                    <Text style={[styles.txt_group_right, styles.txt_group_subtotal, { color: Colors.WHITE_COLOR }]}>
+                    <Text style={[styles.txt_group_right, styles.txt_group_subtotal, { color: Colors.BLACK_COLOR }]}>
                       {symbol}
                     </Text>
                   }
@@ -419,7 +419,7 @@ export const ViewCart = ({
           </Content>
 
           <Footer style={[styles.con_footer, { paddingHorizontal: Devices.pH(layoutWidth.width) }]}>
-            <Button block style={[styles.con_btn, { backgroundColor: '#E83B55' }]} onPress={onFunction.onPressBack} >
+            <Button block style={[styles.con_btn, { backgroundColor: '#18504D' }]} onPress={onFunction.onPressBack} >
               <CText style={styles.txt_btn} i18nKey={'go_back_to_shopping'} />
             </Button>
           </Footer>
@@ -427,7 +427,7 @@ export const ViewCart = ({
       }
 
       {state._products.length > 0 &&
-        <Footer style={[styles.con_footer, { paddingHorizontal: Devices.pH(layoutWidth.width), backgroundColor:'transparent', justifyContent:'flex-end', alignContent:'flex-end', borderTopWidth:0, shadowColor:'#000', shadowOffset:0, }]}>
+        <Footer style={[styles.con_footer, { paddingHorizontal: Devices.pH(layoutWidth.width), elevation:0, backgroundColor:'transparent', justifyContent:'flex-end', alignContent:'flex-end', borderTopWidth:0, shadowColor:'#000', shadowOffset:0, }]}>
           <TouchableOpacity  style={[styles.con_btn, { backgroundColor: '#18504D', justifyContent:'flex-end', alignItems:'flex-end', borderWidth:1, borderColor:'#18504D', flex:0, paddingHorizontal:Devices.sW(2), paddingVertical:Devices.sH(1) }]}
             disabled={state._loadingNextPage || state._loadingCheckProducts ? true : false}
             onPress={onFunction.onPressOrder} >

@@ -113,6 +113,7 @@ class WebviewCheckoutScreen extends Component {
     return (
       <Container style={cStyles.container}>
         <CHeader
+          style={{backgroundColor:'#18504D'}}
           title={'payment'}
           onPressLeft_1={this.handleGoBack}
           onPressRight_1={this.handleGoForward}

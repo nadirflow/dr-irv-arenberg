@@ -54,7 +54,7 @@ class WebviewPaymentScreen extends Component {
           </View>
         )}
         <Footer style={[cStyles.center, { backgroundColor: Colors.WHITE_COLOR, borderTopWidth: 0, paddingHorizontal: Devices.pH(layoutWidth.width) }]}>
-          <Button block style={[cStyles.full_center, { backgroundColor: Colors.PRIMARY_COLOR }]}
+          <Button block style={[cStyles.full_center, { backgroundColor: '#18504D' }]}
             onPress={this.handleContinue} >
             <CText style={cStyles.txt_title_button} i18nKey={'continue'} />
           </Button>
