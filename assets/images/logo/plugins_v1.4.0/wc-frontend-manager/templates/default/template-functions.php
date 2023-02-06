@@ -1,4 +1,0 @@
-<?php
-/**
- * Reserve for now
- */
