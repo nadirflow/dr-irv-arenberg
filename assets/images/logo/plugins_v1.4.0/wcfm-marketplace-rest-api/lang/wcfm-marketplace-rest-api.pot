@@ -1,0 +1,89 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Multivendor Marketplace - REST API\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-13 15:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.1"
+
+#: core/class-wcfmapi-rest-controller.php:19
+#: core/class-wcfmapi-rest-controller.php:190
+#: core/class-wcfmapi-rest-controller.php:264
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: core/class-wcfmapi-rest-controller.php:65
+msgid ""
+"To manipulate product variations you should use the /products/&lt;"
+"product_id&gt;/variations/&lt;id&gt; endpoint."
+msgstr ""
+
+#: core/class-wcfmapi-rest-controller.php:67
+#: includes/api/class-api-order-controller.php:88
+#: includes/api/class-api-product-controller.php:111
+msgid "Invalid ID"
+msgstr ""
+
+#: core/class-wcfmapi-rest-controller.php:174
+#, php-format
+msgid "The %s cannot be deleted."
+msgstr ""
+
+#: helpers/wcfmapi-core-functions.php:7
+#, php-format
+msgid ""
+"%sWCfM Rest API is inactive.%s The %sWooCommerce Multivendor Marketplace%s "
+"must be active for the WCfM Rest API to work. Please %sinstall & activate "
+"WooCommerce Multivendor Marketplace%s"
+msgstr ""
+
+#: includes/api/class-api-order-controller.php:66
+#: includes/api/class-api-product-controller.php:47
+#: includes/api/class-api-product-controller.php:69
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: includes/api/class-api-order-controller.php:151
+msgid "Invalid Vendor - Order Id do not belong to the loggedin vendor"
+msgstr ""
+
+#: includes/api/class-api-product-controller.php:93
+msgid "Whether to bypass trash and force deletion."
+msgstr ""
+
+#: includes/api/class-api-product-controller.php:406
+#: includes/api/class-api-product-controller.php:407
+msgid "Placeholder"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Multivendor Marketplace - REST API"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Most featured and flexible marketplace solution for your e-commerce store. "
+"Simply and Smoothly."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wclovers.github.io/wcfm-rest-api/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WC Lovers"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wclovers.com"
+msgstr ""

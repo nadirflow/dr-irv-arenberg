@@ -1,0 +1,23 @@
+/**
+ ** Name: WaveIndicator.js
+ ** Author: ZiniSoft Ltd
+ ** CreatedAt: 2020
+ ** Description: Description of WaveIndicator.js
+**/
+/* LIBRARY */
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  layer: {
+    ...StyleSheet.absoluteFillObject,
+
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});

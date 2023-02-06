@@ -1,0 +1,826 @@
+# Copyright (C) 2019 ZiniAppBuilder
+# This file is distributed under the same license as the ZiniAppBuilder package.
+msgid ""
+msgstr ""
+"Project-Id-Version: ZiniAppBuilder\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-content/plugins/ziniappbuilder/BulkProcess.php:100
+msgid "Create Audio"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/BulkProcess.php:192, wp-content/plugins/ziniappbuilder/BulkProcess.php:192, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1281, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1425, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1428
+msgid "ZiniAppBuilder"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/BulkProcess.php:219, wp-content/plugins/ziniappbuilder/BulkProcess.php:221, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:551
+msgid "Create audio"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/BulkProcess.php:229, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:723, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:724
+msgid "Download audio"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/BulkProcess.php:266, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:2286, wp-content/plugins/ziniappbuilder/uninstall.php:161, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:1259, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/EnvatoItem.php:144, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/Helper.php:300, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:489, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:199, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginUpdater.php:384, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PostContent.php:213, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:549, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/Shortcodes.php:343, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/StatusTab.php:210, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UI.php:354, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:148, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:404, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/XMLHelper.php:222
+msgid "The whole idea of the singleton design pattern is that there is a single object therefore, we don't want the object to be cloned."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/BulkProcess.php:281, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:2301, wp-content/plugins/ziniappbuilder/uninstall.php:176, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:1274, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/EnvatoItem.php:159, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/Helper.php:315, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:504, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:216, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginUpdater.php:399, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PostContent.php:228, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:564, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/Shortcodes.php:358, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/StatusTab.php:225, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UI.php:371, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:163, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:419, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/XMLHelper.php:237
+msgid "The whole idea of the singleton design pattern is that there is a single object therefore, we don't want the object to be unserialized."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:530
+msgid "Publish a post before you can generate an audio version."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:536
+msgid "ZiniAppBuilder reads only publicly available posts."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:537
+msgid "Remove the password from the post, create an audio version, then close the post again with a password."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:538
+msgid "This is a necessary safety measure."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:549
+msgid "Re-create audio"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:556
+msgid "Remove"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:726
+msgid "Date of creation"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:768, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:770
+msgid "Download: "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1248
+msgid "This plugin uses the Google Cloud Text-to-Speech API Key File. Set up your Google Cloud Platform project before the start."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1258
+msgid "ZiniAppBuilder: Before you begin"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1259
+msgid "This plugin uses the Cloud Text-to-Speech API. You need to set up your Google Cloud Platform project and authorization before creating audio from text. Visit"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1261
+msgid "Online Documentation"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1261
+msgid "for more details."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1280
+msgid "ZiniAppBuilder Settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1324
+msgid "General Settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1330
+msgid "Design Settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1336
+msgid "Assignments Settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1349
+msgid "System Requirements"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1354
+msgid "Uninstall Settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1380, wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1963
+msgid "Voice"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1387
+msgid "Design"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1392
+msgid "Assignments"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1401
+msgid "Activation"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1407
+msgid "Status"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1412
+msgid "Uninstall"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1429
+msgid "ver."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1434
+msgid "Save changes"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1440
+msgid "Plugin settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1478
+msgid "Now used:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1481
+msgid "Select Language:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1484
+msgid "Audio Profile:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1487
+msgid "Speaking Speed:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1490
+msgid "Pitch:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1493
+msgid "Before Audio:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1496
+msgid "After Audio:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1503
+msgid "Player Position:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1506
+msgid "Player Style:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1509
+msgid "Background Color:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1512
+msgid "Download Link:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1520
+msgid "API Key File:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1545
+msgid "Settings saved!"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1556
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1561
+msgid "Invalid purchase code."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1578
+msgid "Do not show"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1579
+msgid "Backend Only"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1580
+msgid "Frontend Only"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1581
+msgid "Backend and Frontend"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1588
+msgid "Download link"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1589
+msgid "Position of the Download audio link"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1605
+msgid "Before Audio"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1606
+msgid "Add text before audio(intro)."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1623
+msgid "After Audio"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1624
+msgid "Add a text after audio(outro)."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1639
+msgid "Before Content"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1640
+msgid "After Content"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1641
+msgid "Top Fixed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1642
+msgid "Bottom Fixed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1643
+msgid "Before Title"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1644
+msgid "After Title"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1645
+msgid "Shortcode [ziniappbuilder]"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1652
+msgid "Position"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1653
+msgid "Select the Player position or use shortcode."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1668
+msgid "Round player"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1669
+msgid "Rounded player"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1670
+msgid "Squared player"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1671
+msgid "WordPress default player"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1672
+msgid "Browser default player"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1679
+msgid "Player Style"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1680
+msgid "Select one of the Player styles"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1696
+msgid "Background Color"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1697
+msgid "Select the Player background-color"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1721
+msgid "Pitch"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1722
+msgid "Current pitch:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1747
+msgid "Speaking Rate/Speed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1748
+msgid "Speaking rate:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1768
+msgid "Smart watches and other wearables, like Apple Watch, Wear OS watch"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1769
+msgid "Smartphones, like Google Pixel, Samsung Galaxy, Apple iPhone"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1770
+msgid "Earbuds or headphones for audio playback, like Sennheiser headphones"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1771
+msgid "Small home ziniappbuilders, like Google Home Mini"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1772
+msgid "Smart home ziniappbuilders, like Google Home"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1773
+msgid "Home entertainment systems or smart TVs, like Google Home Max, LG TV"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1774
+msgid "Car ziniappbuilders"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1775
+msgid "Interactive Voice Response (IVR) systems"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1782
+msgid "Audio Profile"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1783
+msgid "Optimize the synthetic speech for playback on different types of hardware."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1883
+msgid "Select Key File"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1908
+msgid "Your browser does not support the audio element."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1940
+msgid "The request failed. Looks like a problem with your API Key File "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1949
+msgid "The list includes both standard and"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1951
+msgid "WaveNet voices"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1952
+msgid "WaveNet voices are higher quality voices with different"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1954
+msgid "pricing"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1955
+msgid "in the list, they have the voice type \"WaveNet\"."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1962, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:82
+msgid "Language"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:1964
+msgid "Gender"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:2210
+msgid "Helpful links"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:2214, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:123, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:123
+msgid "Documentation"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:2220
+msgid "Get help"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:2224
+msgid "Rate this plugin"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/ziniappbuilder.php:2230
+msgid "More plugins"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:258
+msgid "Matching Method"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:259
+msgid "Should all or any assignments be matched?"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:261, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:265
+msgid "All"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:262, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:268, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:269
+msgid "ANY"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:265, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:268
+msgid " — Will be published if "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:266
+msgid "ALL"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:266
+msgid " of below assignments are matched."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:269
+msgid " (one or more) of below assignments are matched."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:276
+msgid "WordPress Content"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:279, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:301, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:311, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:342, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:368, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:393, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:415, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:437
+msgid "Ignore"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:280, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:302, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:312, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:343, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:369, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:394, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:416, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:438
+msgid "Include"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:281, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:303, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:313, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:344, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:370, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:395, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:417, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:439
+msgid "Exclude"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:286
+msgid "Select on what page types or categories the assignment should be active."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:298
+msgid "Home Page"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:309
+msgid "Menu Items"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:317
+msgid "Select the menu items to assign to."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:339
+msgid "Date & Time"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:354
+msgid "The date and time assignments use the date/time of your servers, not that of the visitors system."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:356
+msgid "Current date/time:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:365
+msgid "User Roles"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:374
+msgid "Select the user roles to assign to."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:390
+msgid "URL"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:400
+msgid "Enter (part of) the URLs to match."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:401
+msgid "Use a new line for each different match."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:412
+msgid "Devices"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:421
+msgid "Select the devices to assign to. Keep in mind that device detection is not always 100% accurate. Users can setup their device to mimic other devices."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:424
+msgid "Desktop"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:425
+msgid "Tablet"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:426
+msgid "Mobile"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:434
+msgid "Custom PHP"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:444
+msgid "Enter a piece of PHP code to evaluate. The code must return the value true or false."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/AssignmentsTab.php:446
+msgid "For instance:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:418, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:452
+msgid " ."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:424
+msgid "Can I use one Purchase Code on multiple sites?"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:428
+msgid "No, this is prohibited by license terms. You can use the purchase code on only one website at a time. Learn more about "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:429
+msgid "Envato License"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:430
+msgid " terms. "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:436
+msgid "What are the benefits of plugin activation?"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:440
+msgid "Activation of the plugin allows you to use all the functionality of the plugin on your site. In addition, in some cases, activating the plugin allows you to access additional features and capabilities of the plugin. Also, using an authored version of the plugin, you can be sure that you will not violate the license."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:446
+msgid "What should I do if my Purchase Code does not work?"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:450
+msgid "There are several reasons why the purchase code may not work on your site. Learn more why your "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginActivation.php:451
+msgid "Purchase Code is Not Working"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:122, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:122
+msgid "Settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:124, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:124
+msgid "Plugins"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginHelper.php:145
+msgid "Rate this plugin:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginUpdater.php:346
+msgid "Please visit the plugin page on the Envato market to "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginUpdater.php:348
+msgid "download "
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/PluginUpdater.php:350
+msgid "the latest version."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:75
+msgid "Operating System"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:76
+msgid "Software"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:77
+msgid "MySQL version"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:78
+msgid "PHP Version"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:79
+msgid "Write Permissions"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:80
+msgid "ZIP Installed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:81
+msgid "cURL Installed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:82
+msgid "DOM Installed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:83
+msgid "XML Installed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:84
+msgid "BCMath Installed"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:85
+msgid "Server Time Sync"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:148
+msgid "We recommend to use php 5.6 or higher"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:174, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:198, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:223, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:248, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:273, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:306, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:316, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:335, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:363
+msgid "YES"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:174, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:198, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:223, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:248, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:273, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:306, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:316, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:335, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:363
+msgid "NO"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:200
+msgid "You must enable CURL (Client URL Library) in PHP. Contact the support service of your hosting provider. They know what to do."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:225
+msgid "You must enable DOM extension (Document Object Model) in PHP. It's used for HTML processing. Contact the support service of your hosting provider. They know what to do."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:250
+msgid "You must enable XML extension in PHP. It's used for XML processing. Contact the support service of your hosting provider. They know what to do."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:275
+msgid "You must enable BCMath extension (Arbitrary Precision Mathematics) in PHP. Contact the support service of your hosting provider. They know what to do."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:308, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:318, wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:337
+msgid "Failed to check time synchronization on your server. Your server's clock must be in sync with network time protocol - NTP."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:365
+msgid " Your server's clock is not in sync with network time protocol - NTP. Contact the support service of your hosting provider. They know what to do."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:443
+msgid "WordPress root directory"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:451
+msgid "WordPress root uploads directory"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:457
+msgid "ZiniAppBuilder uploads directory"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:463
+msgid ".htaccess file"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:474
+msgid "There are some writing permissions issues with the following directories/files:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/ServerReporter.php:478
+msgid "All right"
+msgstr "" 
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:77
+msgid "Removal settings:"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:100
+msgid "Delete plugin only"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:101
+msgid "Delete plugin and settings"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:102
+msgid "Delete plugin, settings and data"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:106
+msgid "Choose which data to delete upon using the \"Delete\" action in the \"Plugins\" admin page."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/UninstallTab.php:112
+msgid "Delete plugin"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:74
+msgid "Version"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:75
+msgid "Site URL"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:76
+msgid "Home URL"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:77
+msgid "ABSPATH"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:78
+msgid "WP Multisite"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:79
+msgid "Max Upload Size"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:80
+msgid "Memory limit"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:81
+msgid "Permalink Structure"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:83
+msgid "Timezone"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:84
+msgid "Admin Email"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:85
+msgid "Debug Mode"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:150
+msgid "We recommend setting memory to at least 64M. For more information, ask your hosting provider."
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:192
+msgid "Yes"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:192
+msgid "No"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:267
+msgid "Plain"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:371
+msgid "Active"
+msgstr ""
+
+#: wp-content/plugins/ziniappbuilder/src/ZiniSoft/ZiniAppBuilder/WordPressReporter.php:371
+msgid "Inactive"
+msgstr ""

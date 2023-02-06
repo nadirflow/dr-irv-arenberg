@@ -1,0 +1,1335 @@
+# Copyright (C) 2020 
+# This file is distributed under the same license as the  package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/output\n"
+"POT-Creation-Date: 2020-10-28 15:06+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/output\n"
+"POT-Creation-Date: 2020-10-28 14:06:09+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 2.4.1\n"
+
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+msgid "Debug"
+msgstr ""
+
+msgid "Export CSV"
+msgstr ""
+
+msgid "Error: %s is disabled (please fix)."
+msgstr ""
+
+msgid ""
+"Warning: WPML does not support users categories. Some spurious warnings may "
+"be generated. They can all be turned off disabling <code>WP_DEBUG</code> "
+"mode or disabling the option <em>Copy taxonomy to translations</em> in WPML "
+"&rarr; Translation options. However is <strong>not</strong> guaranteed to "
+"work."
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "Empty Log"
+msgstr ""
+
+msgid "Feedback Provider"
+msgstr ""
+
+msgid "Feedback Provider is"
+msgstr ""
+
+msgid "active"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+msgid "(next scheduled event: %s)"
+msgstr ""
+
+msgid "Log"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Timestamp"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "iOS"
+msgstr ""
+
+msgid "Android"
+msgstr ""
+
+msgid "iOS Feedback Provider"
+msgstr ""
+
+msgid "Alert"
+msgstr ""
+
+msgid "Safari"
+msgstr ""
+
+msgid "Web"
+msgstr ""
+
+msgid "Telegram"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "No logs were found."
+msgstr ""
+
+msgid "OAuth"
+msgstr ""
+
+msgid "API Keys"
+msgstr ""
+
+msgid ""
+"OAuth is disabled. Anyone can connect to the APIs without authorization. For "
+"better security we recommend to enable OAuth (requires changes to client)."
+msgstr ""
+
+msgid "Enable OAuth & Generate API Keys"
+msgstr ""
+
+msgid "Consumer Key:"
+msgstr ""
+
+msgid "Consumer Secret:"
+msgstr ""
+
+msgid "Disable OAuth & Revoke Keys"
+msgstr ""
+
+msgid ""
+"IMPORTANT: After revoking the API Keys clients who used them will no longer "
+"be able to connect."
+msgstr ""
+
+msgid "HTTP/HTTPS"
+msgstr ""
+
+msgid "Accept both HTTP and HTTPS requests"
+msgstr ""
+
+msgid "Save settings"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "Documentation"
+msgstr ""
+
+msgid "Send push notifications"
+msgstr ""
+
+msgid "Send Push Notifications for"
+msgstr ""
+
+msgid "Categories Filterable by App Subscribers"
+msgstr ""
+
+msgid "Send push notifications to iOS devices"
+msgstr ""
+
+msgid "Use HTTP/2-based Apple Push Notification service (APNs)"
+msgstr ""
+
+msgid "Use sandbox environment"
+msgstr ""
+
+msgid "Sandbox SSL certificate (.pem)"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Change"
+msgstr ""
+
+msgid "Expires"
+msgstr ""
+
+msgid "Certificate Password"
+msgstr ""
+
+msgid "Production SSL certificate (.pem)"
+msgstr ""
+
+msgid "Obtaining the SSL Certificates"
+msgstr ""
+
+msgid "Bundle ID"
+msgstr ""
+
+msgid "Key ID"
+msgstr ""
+
+msgid "Team ID"
+msgstr ""
+
+msgid "Key Content"
+msgstr ""
+
+msgid "Obtaining the private key"
+msgstr ""
+
+msgid "Notification sound file"
+msgstr ""
+
+msgid ""
+"The name of a sound file in the app bundle or in the <code>Library/Sounds</"
+"code> folder of the app’s data container. If the sound file doesn’t exist or "
+"<code>default</code> is specified as the value, the default alert sound is "
+"played. The audio must be in one of the audio data formats that are "
+"compatible with system sounds (<code>aiff</code>, <code>wav</code>, or "
+"<code>caf</code>). See <a href=\"%s\">Preparing Custom Alert Sounds</a> for "
+"details."
+msgstr ""
+
+msgid "URL Scheme"
+msgstr ""
+
+msgid ""
+"When a user registers on this site, he will receive a confirmation email "
+"with a verification link. If you have filled in the URL Scheme, after a "
+"successful verification from a mobile device the user will be redirected to "
+"the URL indicated."
+msgstr ""
+
+msgid "Send push notifications to Android devices"
+msgstr ""
+
+msgid "Server Key"
+msgstr ""
+
+msgid "Obtaining the Server Key"
+msgstr ""
+
+msgid "Apache Cordova"
+msgstr ""
+
+msgid "In the Android notification payload add the <code>message</code> field"
+msgstr ""
+
+msgid ""
+"Check this box if you are using Apache Cordova with PushPlugin. If you "
+"enable this option, it will always be sent Data message regardless of what "
+"you selected above."
+msgstr ""
+
+msgid "Firebase"
+msgstr ""
+
+msgid ""
+"Use the <em>Notification message</em> instead of the <em>Data message</em>"
+msgstr ""
+
+msgid ""
+"With the Notification message FCM automatically displays the message to end-"
+"user devices on behalf of the client app. With the Data message client app "
+"is responsible for processing data messages. More info in the <a href="
+"\"https://firebase.google.com/docs/cloud-messaging/concept-options"
+"\">official FCM documentation</a>."
+msgstr ""
+
+msgid "Send push notifications to Safari desktops"
+msgstr ""
+
+msgid "P12 certificate (.p12)"
+msgstr ""
+
+msgid "P12 Certificate Password"
+msgstr ""
+
+msgid "Obtaining the Certificates"
+msgstr ""
+
+msgid "PEM certificate (.pem)"
+msgstr ""
+
+msgid "PEM Certificate Password"
+msgstr ""
+
+msgid "Website Push ID"
+msgstr ""
+
+msgid ""
+"The Website Push ID, as specified in your registration with the Member "
+"Center. The string must start with <code>web.</code>."
+msgstr ""
+
+msgid "Website icon 16x16 (.png)"
+msgstr ""
+
+msgid "Website icon 32x32 (.png)"
+msgstr ""
+
+msgid "Website icon 64x64 (.png)"
+msgstr ""
+
+msgid "Website icon 128x128 (.png)"
+msgstr ""
+
+msgid "Website icon 256x256 (.png)"
+msgstr ""
+
+msgid "Icons must be 72 DPI PNGs."
+msgstr ""
+
+msgid ""
+"Send push notifications to Web Push (Chrome, Firefox, Edge, Opera and "
+"others) devices"
+msgstr ""
+
+msgid "Deprecated and optional, it's here only for compatibility reasons."
+msgstr ""
+
+msgid "Authentication (VAPID)"
+msgstr ""
+
+msgid ""
+"Browsers need to verify your identity. A standard called <a href=\"https://"
+"datatracker.ietf.org/doc/rfc8292/\" target=\"_blank\">VAPID</a> can "
+"authenticate you for all browsers. You'll need to create and provide a "
+"public and private key for your server. These keys must be safely stored and "
+"should not change."
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid ""
+"The subject needs to be a URL or a mailto: URL. This provides a point of "
+"contact in case the push service needs to contact the message sender."
+msgstr ""
+
+msgid "Private Key"
+msgstr ""
+
+msgid "Public Key"
+msgstr ""
+
+msgid "Create VAPID keys"
+msgstr ""
+
+msgid ""
+"Press this button to automatically create the public and private key for "
+"your server."
+msgstr ""
+
+msgid "Experimental"
+msgstr ""
+
+msgid "Add payload to web push notifications"
+msgstr ""
+
+msgid ""
+"It requires that your server meets certain requirements and can drastically "
+"slow down the sending rate."
+msgstr ""
+
+msgid "%s notifications require PHP version %s or later."
+msgstr ""
+
+msgid ""
+"%s notifications require PHP extension for %s to be enabled on your server."
+msgstr ""
+
+msgid ""
+"To activate %s notifications your website should be under HTTPS protocol."
+msgstr ""
+
+msgid "Send push notifications to Telegram"
+msgstr ""
+
+msgid "Get the API Token"
+msgstr ""
+
+msgid ""
+"Enable wpautop filter to convert double line-breaks in the content into HTML "
+"paragraphs"
+msgstr ""
+
+msgid "Force badge count to 1"
+msgstr ""
+
+msgid "Don't require email verification"
+msgstr ""
+
+msgid ""
+"Check this box if you do not require devices to be activated only after "
+"confirmation of the email address (use with caution)."
+msgstr ""
+
+msgid "Remove data on uninstall"
+msgstr ""
+
+msgid ""
+"Check this box if you would like to completely remove all of its data when "
+"the plugin is deleted."
+msgstr ""
+
+msgid "Fix progress bar"
+msgstr ""
+
+msgid ""
+"Press this button if after several hours the \"Sending notifications...\" "
+"progress bar does not disappear."
+msgstr ""
+
+msgid "Clean tokens"
+msgstr ""
+
+msgid ""
+"Press this button to remove inactive tokens (i.e. tokens to whom at least 50 "
+"notifications have been sent, but which have not read any of them)."
+msgstr ""
+
+msgid "See the online documentation"
+msgstr ""
+
+msgid "About this Plugin"
+msgstr ""
+
+msgid "Developed by"
+msgstr ""
+
+msgid "Push Notifications for WordPress"
+msgstr ""
+
+msgid ""
+"This is our basic solution for small personal blogs. We also offer a full-"
+"featured plugin, Push Notifications for WordPress, designed for all the "
+"other websites."
+msgstr ""
+
+msgid "More info"
+msgstr ""
+
+msgid "Differences"
+msgstr ""
+
+msgid "Required libcurl >= 7.46.0"
+msgstr ""
+
+msgid "Missing HTTP/2 support for libcurl"
+msgstr ""
+
+msgid "Missing Key ID"
+msgstr ""
+
+msgid "Missing Team ID"
+msgstr ""
+
+msgid "Missing Private Key"
+msgstr ""
+
+msgid "Missing Bundle ID"
+msgstr ""
+
+msgid "Missing sandbox SSL certificate"
+msgstr ""
+
+msgid "Sandbox SSL certificate should be a PEM file"
+msgstr ""
+
+msgid "Missing sandbox certificate password"
+msgstr ""
+
+msgid "Missing production SSL certificate"
+msgstr ""
+
+msgid "Production SSL certificate should be a PEM file"
+msgstr ""
+
+msgid "Missing production certificate password"
+msgstr ""
+
+msgid "Missing Server Key"
+msgstr ""
+
+msgid "Missing Safari Key ID"
+msgstr ""
+
+msgid "Missing Safari Team ID"
+msgstr ""
+
+msgid "Missing Safari Private Key"
+msgstr ""
+
+msgid "Missing Safari P12 certificate"
+msgstr ""
+
+msgid "Safari P12 certificate should be a P12 file"
+msgstr ""
+
+msgid "Missing Safari P12 certificate password"
+msgstr ""
+
+msgid "Missing Safari PEM certificate"
+msgstr ""
+
+msgid "Safari PEM certificate should be a PEM file"
+msgstr ""
+
+msgid "Missing Safari PEM certificate password"
+msgstr ""
+
+msgid "Missing Website Push ID"
+msgstr ""
+
+msgid "Website icon 16x16 should be a PNG of 16x16 pixels"
+msgstr ""
+
+msgid "Website icon 32x32 should be a PNG of 32x32 pixels"
+msgstr ""
+
+msgid "Website icon 64x64 should be a PNG of 64x64 pixels"
+msgstr ""
+
+msgid "Website icon 128x128 should be a PNG of 128x128 pixels"
+msgstr ""
+
+msgid "Website icon 256x256 should be a PNG of 256x256 pixels"
+msgstr ""
+
+msgid "Missing VAPID Subject"
+msgstr ""
+
+msgid "Missing VAPID Private Key"
+msgstr ""
+
+msgid "Missing VAPID Public Key"
+msgstr ""
+
+msgid "Missing API Token"
+msgstr ""
+
+msgid "Stats"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Read by OS"
+msgstr ""
+
+msgid "New subscribers per day"
+msgstr ""
+
+msgid "Subscribers per category"
+msgstr ""
+
+msgid "Devices"
+msgstr ""
+
+msgid "App subscribers"
+msgstr ""
+
+msgid "Tokens"
+msgstr ""
+
+msgid "App Subscribers"
+msgstr ""
+
+msgid "Removed from the App Subscribers page the user with ID %s."
+msgstr ""
+
+msgid "Completely deleted the user %s."
+msgstr ""
+
+msgid "Disassociated the user %s from blog %s"
+msgstr ""
+
+msgid "User deleted"
+msgstr ""
+
+msgid "This is a test notification"
+msgstr ""
+
+msgid "Notification sent to %s device"
+msgstr ""
+
+msgid ""
+"There was an error sending the notification. For more information, see the "
+"<a href='%s'>Debug</a> page"
+msgstr ""
+
+msgid "App Subscriber"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "E-mail"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Notifications Sent"
+msgstr ""
+
+msgid "Posts Viewed"
+msgstr ""
+
+msgid "Excluded Categories"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Send test notification"
+msgstr ""
+
+msgid "Remove categories"
+msgstr ""
+
+msgid "Assign to %s"
+msgstr ""
+
+msgid "No app subscribers were found."
+msgstr ""
+
+msgid "Removed from the Tokens page the token with ID %s."
+msgstr ""
+
+msgid ""
+"Automatically deleted the anonymous user %s (%s) since left without tokens."
+msgstr ""
+
+msgid "Item deleted"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Token"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Registration timestamp"
+msgstr ""
+
+msgid "Operating System"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "To be confirmed"
+msgstr ""
+
+msgid "No tokens were found."
+msgstr ""
+
+msgid "Push Notifications"
+msgstr ""
+
+msgid "Users to which the notifications were sent"
+msgstr ""
+
+msgid "Users who read the notifications"
+msgstr ""
+
+msgid "New subscribers"
+msgstr ""
+
+msgid "Anonymous app subscribers"
+msgstr ""
+
+msgid "Registered app subscribers"
+msgstr ""
+
+msgid "Unsubscribed"
+msgstr ""
+
+msgid "No data available in this chart"
+msgstr ""
+
+msgid "With active notifications"
+msgstr ""
+
+msgid "With notifications disabled"
+msgstr ""
+
+msgid "Select"
+msgstr ""
+
+msgid "Send and make visible only to"
+msgstr ""
+
+msgid "Make visible only to"
+msgstr ""
+
+msgid "Do not send for this %s"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Anonymous users"
+msgstr ""
+
+msgid "Registered users"
+msgstr ""
+
+msgid ""
+"The iOS push notifications certificate is expired on %s. Renew it now and "
+"upload it <a href=\"%s\">here</a>."
+msgstr ""
+
+msgid ""
+"The iOS push notifications certificate is about to expire on %s. Renew it "
+"soon and upload it <a href=\"%s\">here</a>."
+msgstr ""
+
+msgid "Automatically deleted excluded category %d."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Activation Code"
+msgstr ""
+
+msgid "Auth Token"
+msgstr ""
+
+msgid "Sending notifications..."
+msgstr ""
+
+msgid "Cleaning tokens..."
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "User Category"
+msgstr ""
+
+msgid "Select User Category"
+msgstr ""
+
+msgid "There are no user categories available."
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "API License Activation"
+msgstr ""
+
+msgid "API License Key Status"
+msgstr ""
+
+msgid "API License Key"
+msgstr ""
+
+msgid "API License email"
+msgstr ""
+
+msgid "API License Deactivation"
+msgstr ""
+
+msgid "Deactivate API License Key"
+msgstr ""
+
+msgid ""
+"Login to your <a href=\"%s\">My Account page</a> to find a valid API License "
+"Key."
+msgstr ""
+
+msgid "Plugin activated. "
+msgstr ""
+
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr ""
+
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+
+msgid "Plugin license deactivated. "
+msgstr ""
+
+msgid "Deactivates an API License Key so it can be used on another site."
+msgstr ""
+
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid ""
+"%s has not been activated. Go to the license page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the license page. The License Key should have arrived in your "
+"email inbox, if not you can get it by logging into your account <a href=\"%s"
+"\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+msgid "We were not able to activate your account. Please contact support."
+msgstr ""
+
+msgid "Thank you for activating your account."
+msgstr ""
+
+msgid "New confirmed app subscriber on your site %s: %s"
+msgstr ""
+
+msgid "[%s] New Confirmed App Subscriber"
+msgstr ""
+
+msgid "Success"
+msgstr ""
+
+msgid ""
+"Your email needs to be verified. Go to your email inbox and find the message "
+"from us asking you to confirm your address. Or make sure your email address "
+"is entered correctly."
+msgstr ""
+
+msgid "Categories Filterable by App Subscribers not set"
+msgstr ""
+
+msgid "Invalid HTTP method"
+msgstr ""
+
+msgid "A new post has been published."
+msgstr ""
+
+msgid "Post not found."
+msgstr ""
+
+msgid "You do not have permission to access this post."
+msgstr ""
+
+msgid "Anonymous"
+msgstr ""
+
+msgid "User category not found"
+msgstr ""
+
+msgid "prevToken not found"
+msgstr ""
+
+msgid ""
+"Attempted an update of an %s token equal to a token already present: %s."
+msgstr ""
+
+msgid "Invalid %s"
+msgstr ""
+
+msgid "Reassign %s token %s from user %s to user %s."
+msgstr ""
+
+msgid "Thank you for joining %s!"
+msgstr ""
+
+msgid "To confirm your registration, please click on the following link:"
+msgstr ""
+
+msgid "Welcome to %s"
+msgstr ""
+
+msgid ""
+"Token not registered.\n"
+"To solve the problem please uninstall and reinstall the app."
+msgstr ""
+
+msgid "Unable to delete token"
+msgstr ""
+
+msgid "os parameter invalid"
+msgstr ""
+
+msgid "lang parameter invalid"
+msgstr ""
+
+msgid "Mandatory parameter %s missing"
+msgstr ""
+
+msgid "Parameter %s is missing"
+msgstr ""
+
+msgid "Failed to sort parameters"
+msgstr ""
+
+msgid "Signature method is invalid"
+msgstr ""
+
+msgid "Provided signature does not match"
+msgstr ""
+
+msgid "Unauthorized"
+msgstr ""
+
+msgid "Not Found"
+msgstr ""
+
+msgid "Internal Server Error"
+msgstr ""
+
+msgid "%s API Error (%s): %s, %s."
+msgstr ""
+
+msgid "License Activation"
+msgstr ""
+
+msgid "License Deactivation"
+msgstr ""
+
+msgid ""
+"The Push Notifications for WordPress API License Key has not been activated, "
+"so the plugin is inactive! %sClick here%s to activate the license key and "
+"the plugin."
+msgstr ""
+
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+msgid "Cleaning completed."
+msgstr ""
+
+msgid "Cleaning started."
+msgstr ""
+
+msgid "Scheduled Feedback Provider."
+msgstr ""
+
+msgid "Un-scheduled Feedback Provider."
+msgstr ""
+
+msgid "Feedback Provider is running."
+msgstr ""
+
+msgid "iOS SSL certificate is not correctly set."
+msgstr ""
+
+msgid "iOS SSL certificate password is not correctly set."
+msgstr ""
+
+msgid "iOS SSL Certificate does not exists."
+msgstr ""
+
+msgid "The Feedback Provider removed iOS token of user %s: %s."
+msgstr ""
+
+msgid "Notifications for the %s %s deliberately not sent"
+msgstr ""
+
+msgid "Post %d has been deleted, abort sending process."
+msgstr ""
+
+msgid "Starting %s notifications"
+msgstr ""
+
+msgid "Do not send %s notifications"
+msgstr ""
+
+msgid "Finished %s notifications"
+msgstr ""
+
+msgid "Later"
+msgstr ""
+
+msgid "Continue"
+msgstr ""
+
+msgid "Subscribe to get the latest updates"
+msgstr ""
+
+msgid "Click on Allow when prompted about Notifications."
+msgstr ""
+
+msgid ""
+"The Safari push notifications certificate is expired on %s. Renew it now and "
+"upload it <a href=\"%s\">here</a>."
+msgstr ""
+
+msgid ""
+"The Safari push notifications certificate is about to expire on %s. Renew it "
+"soon and upload it <a href=\"%s\">here</a>."
+msgstr ""
+
+msgid "Registering device."
+msgstr ""
+
+msgid "Forgetting device."
+msgstr ""
+
+msgid "Only POST and DELETE request allowed"
+msgstr ""
+
+msgid "Empty log content"
+msgstr ""
+
+msgid "Log content is not a JSON"
+msgstr ""
+
+msgid "Log: %s"
+msgstr ""
+
+msgid "P12 certificate"
+msgstr ""
+
+msgid "P12 certificate password"
+msgstr ""
+
+msgid "Temporary directory is not accessible"
+msgstr ""
+
+msgid "Empty package"
+msgstr ""
+
+msgid "16x16 icon"
+msgstr ""
+
+msgid "32x32 icon"
+msgstr ""
+
+msgid "64x64 icon"
+msgstr ""
+
+msgid "128x128 icon"
+msgstr ""
+
+msgid "256x256 icon"
+msgstr ""
+
+msgid "website push ID"
+msgstr ""
+
+msgid "%s %s: %s."
+msgstr ""
+
+msgid "Safari %s is not correctly set"
+msgstr ""
+
+msgid "Safari %s does not exists"
+msgstr ""
+
+msgid "Google API Key is not correctly set."
+msgstr ""
+
+msgid "You could retry to send it late in another request."
+msgstr ""
+
+msgid "Check that the request contains a registration ID."
+msgstr ""
+
+msgid ""
+"Make sure the message was addressed to a registration ID whose package name "
+"matches the value passed in the request."
+msgstr ""
+
+msgid "Make sure the Sender Id (Project Number) in your App is correct."
+msgstr ""
+
+msgid ""
+"Check that the total size of the payload data included in a message does not "
+"exceed 4096 bytes."
+msgstr ""
+
+msgid ""
+"Check that the payload data does not contain a key that is used internally "
+"by FCM."
+msgstr ""
+
+msgid ""
+"Check that the value used in time_to_live is an integer representing a "
+"duration in seconds between 0 and 2,419,200."
+msgstr ""
+
+msgid "Reduce the number of messages sent to this device."
+msgstr ""
+
+msgid "Invalid argument (%s): %s"
+msgstr ""
+
+msgid "FCM didn't return a 200 or 503 status (%s): %s"
+msgstr ""
+
+msgid "Could not send message (%s): %s"
+msgstr ""
+
+msgid "iOS Key ID is not correctly set."
+msgstr ""
+
+msgid "iOS Team ID is not correctly set."
+msgstr ""
+
+msgid "iOS private key is not correctly set."
+msgstr ""
+
+msgid "iOS bundle ID is not correctly set."
+msgstr ""
+
+msgid "Safari PEM certificate is not correctly set."
+msgstr ""
+
+msgid "Safari PEM certificate password is not correctly set."
+msgstr ""
+
+msgid "Safari PEM Certificate does not exists."
+msgstr ""
+
+msgid "Safari Key ID is not correctly set."
+msgstr ""
+
+msgid "Safari Team ID is not correctly set."
+msgstr ""
+
+msgid "Safari Private Key is not correctly set."
+msgstr ""
+
+msgid "Safari Website Push ID is not correctly set."
+msgstr ""
+
+msgid "Telegram API Token is not correctly set."
+msgstr ""
+
+msgid "Could not send message (%s)"
+msgstr ""
+
+msgid "VAPID Subject is not correctly set."
+msgstr ""
+
+msgid "VAPID Private Key is not correctly set."
+msgstr ""
+
+msgid "VAPID Public Key is not correctly set."
+msgstr ""
+
+msgid "Processing new chunk with %d tokens from offset %d"
+msgstr ""
+
+msgid "Updated %s token from %s to %s."
+msgstr ""
+
+msgid "Removed invalid %s token: %s."
+msgstr ""
+
+msgid "Updating device."
+msgstr ""
+
+msgid "Unable to delete encryption keys"
+msgstr ""
+
+msgid ""
+"To activate Push Notifications for WordPress you must first disable Push "
+"Notifications for Posts and Push Notifications for WordPress (Lite)"
+msgstr ""
+
+msgid "Plugin Activation Error"
+msgstr ""
+
+msgid "Push Notifications for WordPress requires PHP version %s or later."
+msgstr ""
+
+msgid ""
+"Push Notifications for WordPress is incompatible with network activation."
+msgstr ""
+
+msgid "User Categories"
+msgstr ""
+
+msgid "Search User Categories"
+msgstr ""
+
+msgid "Popular User Categories"
+msgstr ""
+
+msgid "All User Categories"
+msgstr ""
+
+msgid "Edit User Category"
+msgstr ""
+
+msgid "Update User Category"
+msgstr ""
+
+msgid "Add New User Category"
+msgstr ""
+
+msgid "New User Category Name"
+msgstr ""
+
+msgid "Separate user categories with commas"
+msgstr ""
+
+msgid "Add or remove user categories"
+msgstr ""
+
+msgid "Choose from the most popular user categories"
+msgstr ""
+
+msgid "Automatically deleted the tokens for user %s."
+msgstr ""
+
+msgid "Upgrading from version %d."
+msgstr ""
+
+msgid "Db version %d upgraded."
+msgstr ""
+
+msgid "Every %d Minutes"
+msgstr ""
+
+msgid "Do you want to support Safari notifications?"
+msgstr ""
+
+msgid ""
+"Do you want to support Web Push (Chrome, Firefox, Edge, Opera and others) "
+"notifications?"
+msgstr ""
+
+msgid "Do you want to support Telegram bot Push notifications?"
+msgstr ""
+
+msgid "Upgrade now to Push Notifications for WordPress"
+msgstr ""
+
+msgid "Do you want to support custom post types?"
+msgstr ""
+
+msgid ""
+"Do you want to support HTTP/2-based Apple Push Notification service (APNs)?"
+msgstr ""
+
+msgid "Do you want to see the stats?"
+msgstr ""
+
+msgid "Do you want to create user groups?"
+msgstr ""
+
+msgid ""
+"This plugin allows you to send push notifications to up to %d tokens per "
+"platform. To send more notifications, please upgrade to <a href=\"https://"
+"products.delitestudio.com/wordpress/push-notifications-for-wordpress/\">Push "
+"Notifications for Wordpress</a>."
+msgstr ""
+
+msgid ""
+"To activate Push Notifications for WordPress (Lite) you must first disable "
+"Push Notifications for Posts and Push Notifications for WordPress"
+msgstr ""
+
+msgid ""
+"Push Notifications for WordPress (Lite) requires PHP version %s or later."
+msgstr ""
+
+msgid ""
+"Push Notifications for WordPress (Lite) is incompatible with WordPress "
+"Multisite."
+msgstr ""

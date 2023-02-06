@@ -1,0 +1,1370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* appbookitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* appbookitTests.m */; };
+		0168D094A24B499687E434ED /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EFDA07508314224BD21AA3E /* Zocial.ttf */; };
+		0405A08424230E6F0048EBA4 /* libRNGoogleSignin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405A08324230E6F0048EBA4 /* libRNGoogleSignin.a */; };
+		042A954A2446C3A800924E60 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A95462446BED300924E60 /* GoogleService-Info.plist */; };
+		04B9490A253D9884003762D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B94909253D9884003762D6 /* LaunchScreen.storyboard */; };
+		04B9490B253D9884003762D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B94909253D9884003762D6 /* LaunchScreen.storyboard */; };
+		04B949EF253D9AEC003762D6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B949EE253D9AEC003762D6 /* File.swift */; };
+		04B949F0253D9AEC003762D6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B949EE253D9AEC003762D6 /* File.swift */; };
+		1399A5741B7A4F3EB96FAA55 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C158F37534524C368659D90F /* Roboto-Thin.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		146D156CBC084D3CB1A1EB34 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 806E0B84EFF5484B8BE3A257 /* Montserrat-Light.ttf */; };
+		16908F439EDC4F8F8B1E882A /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8420F8BDADAB4264ABA8AF92 /* MaterialCommunityIcons.ttf */; };
+		1A29569322B74EAAA0AEF8D9 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDBB7626EE3842C2B0420ABB /* Montserrat-Regular.ttf */; };
+		1B1C15EEFDB24DA38261EDF5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68D1DDDDE70A4414A3288A44 /* Montserrat-Bold.ttf */; };
+		1C23E802D6D9F4B875294656 /* libPods-appbookit-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD17E439C125B476DBBEA0BD /* libPods-appbookit-tvOS.a */; };
+		26211E8309AD45EA898FA34F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB0EB290C17C4D198A6E9B9C /* Octicons.ttf */; };
+		2AFE2AC82E9A4362865F04DE /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E36B642FC35442EBF22D61A /* Roboto-Regular.ttf */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D11D8BC2BB44E2E8F4538E2 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B7549DF7F24D82B20DB830 /* Lato-Black.ttf */; };
+		2DCD954D1E0B4F2C00145EB5 /* appbookitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* appbookitTests.m */; };
+		307589730D01425CBBDBBD89 /* SFCompactDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A04168A77A724AD185BFA3C6 /* SFCompactDisplay-Black.otf */; };
+		401A6C67F69D41B99399656A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C292592B9A2C4E2C826721EB /* Ionicons.ttf */; };
+		43E9E4D1D91B4572805D3181 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2EAE6BF9E2A415C8DB9A972 /* Feather.ttf */; };
+		476555AA09DA4B33B70C7F59 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23F8F31D3E0B47B08BC37743 /* AntDesign.ttf */; };
+		4957E3A08F0749CDA195049D /* SFCompactDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5588DD6B7B814CA3AF64C08D /* SFCompactDisplay-Heavy.otf */; };
+		496E1ED56D724928BA9AD02E /* SFCompactDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 635A41806C204E1B84FC00A4 /* SFCompactDisplay-Ultralight.otf */; };
+		4CECA4E0144A43D29DA7DD2F /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2DE6857C89E4AEC808B2DF7 /* Poppins-Thin.ttf */; };
+		4E587C347470474CBD1828D8 /* SFCompactDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F97252E565A24A0AAE88BC46 /* SFCompactDisplay-Medium.otf */; };
+		51F01FFA44A04E2B996E4170 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E34C8D2AC78A490EABE50F05 /* Poppins-Light.ttf */; };
+		54AC3284FA3A4F5184B5EA8A /* SourceSansPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFD67DD74FB84486A3A867EC /* SourceSansPro-Black.ttf */; };
+		5561D3ED714645568D5C1D45 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49CFA74E85D54242846410E7 /* MaterialIcons.ttf */; };
+		5938D4A60FAC4F7D98820AE2 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD1D28A659644F4A979C1E9C /* Poppins-Bold.ttf */; };
+		5BFDA191C51C4287ACE5D544 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA5C577BAB0D45AFA0EC3826 /* Poppins-SemiBold.ttf */; };
+		64F885E885CF474A8FD5F0B0 /* HelveticaNeue-CondensedBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6152DD0AF93141CC9DFBE51C /* HelveticaNeue-CondensedBold.otf */; };
+		678E9004FD054C8A9288F810 /* HelveticaNeue-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6859ADD6167243BB8C5B7058 /* HelveticaNeue-Light.otf */; };
+		688C552C370048A98C530278 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE26010C327945AB976548E1 /* FontAwesome5_Brands.ttf */; };
+		693ED96EDBC16020058BAA33 /* libPods-appbookit-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D61E7885902CF84203F238AE /* libPods-appbookit-tvOSTests.a */; };
+		6AF1283D41A7400ABE66240D /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D9B5BF1959147DC88F5BF2E /* Lato-Bold.ttf */; };
+		6C1F1B74158843BB85EA3917 /* SourceSansPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF1E8D7DF4B5BA339CB41 /* SourceSansPro-Regular.ttf */; };
+		728E484623B44D1E9F7F83FB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28CD70C379D545A0AD225CF3 /* Roboto-Light.ttf */; };
+		754FD0065B0B4FD09855BCF8 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82FAA753373C46EC93CA2223 /* FontAwesome5_Solid.ttf */; };
+		7788F2C2A77B45FA8D6D0324 /* SourceSansPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39871516254E4BA9BE7B09B5 /* SourceSansPro-Light.ttf */; };
+		79B035FCEEC58717B70465EB /* libPods-appbookit-appbookitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF72B8E2DFE12B3C13C0A04B /* libPods-appbookit-appbookitTests.a */; };
+		7DA791CB033A44058E52E6D9 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD8157B048C74972BC603BB8 /* Foundation.ttf */; };
+		7ED3C63AEE0A4BE9ABA08ECB /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92EDE4B1EAB74666875750D0 /* Montserrat-Medium.ttf */; };
+		846DA35A7B274BE29EB86D66 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7B25B420B744498BB9A7CF1 /* Poppins-Regular.ttf */; };
+		84C71966B36B4A91B4371D61 /* SFCompactDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B38D187A5F9C42EFBC845BA8 /* SFCompactDisplay-Bold.otf */; };
+		85A5CA525F5C4B4EB8F60D80 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDC9D28C619E4E9BA01F119D /* EvilIcons.ttf */; };
+		8F25A3435BA847D6BA0B22CE /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E0D414728EF44CB8947BE53 /* Roboto-Bold.ttf */; };
+		8F492890C9BD49FA90D18E9D /* SFCompactDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB86231A2FB7414CA06C602E /* SFCompactDisplay-Light.otf */; };
+		9D9C9BE502844A8D83364345 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA88C2FEF8A4069AC23943B /* Roboto_medium.ttf */; };
+		A0259A0410924C1095596554 /* SFCompactDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A7B01CEAAF1F4D7B898BC5B6 /* SFCompactDisplay-Semibold.otf */; };
+		A8466507A53D68D7DCE46B0C /* libPods-appbookit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E1749940D6D8FBEEBC0F85 /* libPods-appbookit.a */; };
+		AB8C103B18B843FD9491855B /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9C350CC6194E30B53F1A8E /* Lato-Thin.ttf */; };
+		ADA93308EB7F4C09BA2F8771 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5912F4CEE273462CA61383A4 /* Roboto-Medium.ttf */; };
+		B79947D6DBBD4A2ABAD11BE8 /* SourceSansPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 928A80BABD8A4927BAC32682 /* SourceSansPro-Bold.ttf */; };
+		B9A399845AFA4752A1F8CDF0 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2D0D79E5C924089A7516FC9 /* Entypo.ttf */; };
+		BC0B3B5DC2664A6F9D45266C /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A84C319B3D54B79AF75441D /* Montserrat-Thin.ttf */; };
+		BCA7A2923B154F2B91D57FD5 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7C891E7498E4F8ABA27A425 /* Roboto.ttf */; };
+		C334DB3C41754E7FAD25B71F /* HelveticaNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 492FCA8085BC460BBC0F3095 /* HelveticaNeue.otf */; };
+		C9A90472CA264B19930A6F56 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF0623673D43465EA6EAA3A5 /* FontAwesome5_Regular.ttf */; };
+		D391CB37F9F440988E0FA029 /* HelveticaNeue-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9EBEFF63DC24260852B537D /* HelveticaNeue-Medium.otf */; };
+		D69B8AA76A424A689374CC1B /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA989D22E24F58B3398A10 /* Lato-Light.ttf */; };
+		D99E55E406F84C978F8BDC93 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5332615792114D6FAFCCE140 /* FontAwesome.ttf */; };
+		DA2B202B930441A6AFF5E579 /* SFCompactDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BF4FD9620E694A7D910F1C36 /* SFCompactDisplay-Regular.otf */; };
+		DB1C0846320441DC8CA39F85 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E77DED06E7942A188A07938 /* Poppins-Medium.ttf */; };
+		DCACFBDD42394E889FB55A31 /* HelveticaNeue-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17EB27540BB844D7A8C0F780 /* HelveticaNeue-Bold.otf */; };
+		E19FDC558887407CB1417990 /* SFCompactDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73E3EC8D523C4401A7CFF2FE /* SFCompactDisplay-Thin.otf */; };
+		E58B5713FD38409DA7F5F261 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A0EA8EAB1A64022A76E4CBE /* Lato-Regular.ttf */; };
+		E5E550BE202C4B00998117AE /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 624F2812BAAA46B6945693A5 /* SimpleLineIcons.ttf */; };
+		E75BF56B67724230BB33F4C9 /* SourceSansPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBDB988E05C14394A5B7BCB3 /* SourceSansPro-SemiBold.ttf */; };
+		EDEC850C42CE4712B1DC9933 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90794CD6EC714D5D81C42773 /* rubicon-icon-font.ttf */; };
+		F4280594F839446A9F80D577 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC12C5300CC4C3ABB2242E6 /* Montserrat-SemiBold.ttf */; };
+		FE72AC18538441F79C6B9120 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34506C24B9424D48B6F328DC /* Fontisto.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = appbookit;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "appbookit-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* appbookitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appbookitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* appbookitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appbookitTests.m; sourceTree = "<group>"; };
+		0405A08324230E6F0048EBA4 /* libRNGoogleSignin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGoogleSignin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		042A95462446BED300924E60 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04B94909253D9884003762D6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = appbookit/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B949EC253D9AEC003762D6 /* appbookit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appbookit-Bridging-Header.h"; sourceTree = "<group>"; };
+		04B949ED253D9AEC003762D6 /* appbookitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appbookitTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		04B949EE253D9AEC003762D6 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		04CD24DA242F214500EDD1C5 /* Bookit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Bookit.entitlements; path = appbookit/Bookit.entitlements; sourceTree = "<group>"; };
+		04CD24DD242F2FDF00EDD1C5 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		13B07F961A680F5B00A75B9A /* ZiniStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZiniStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = appbookit/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = appbookit/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = appbookit/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = appbookit/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = appbookit/main.m; sourceTree = "<group>"; };
+		17EB27540BB844D7A8C0F780 /* HelveticaNeue-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Bold.otf"; path = "../assets/fonts/HelveticaNeue-Bold.otf"; sourceTree = "<group>"; };
+		1CFA989D22E24F58B3398A10 /* Lato-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Light.ttf"; path = "../assets/fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		1E77DED06E7942A188A07938 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		23F8F31D3E0B47B08BC37743 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		26B7549DF7F24D82B20DB830 /* Lato-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Black.ttf"; path = "../assets/fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		28CD70C379D545A0AD225CF3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* appbookit-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appbookit-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* appbookit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appbookit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34506C24B9424D48B6F328DC /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/native-base/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		39871516254E4BA9BE7B09B5 /* SourceSansPro-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Light.ttf"; path = "../assets/fonts/SourceSansPro-Light.ttf"; sourceTree = "<group>"; };
+		3E0D414728EF44CB8947BE53 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		492FCA8085BC460BBC0F3095 /* HelveticaNeue.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = HelveticaNeue.otf; path = ../assets/fonts/HelveticaNeue.otf; sourceTree = "<group>"; };
+		49CFA74E85D54242846410E7 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		5332615792114D6FAFCCE140 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		5484B8A1989969E8B6AB5EBB /* Pods-appbookit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit.debug.xcconfig"; path = "Target Support Files/Pods-appbookit/Pods-appbookit.debug.xcconfig"; sourceTree = "<group>"; };
+		552AFCCFE97B0A96F56167F7 /* Pods-appbookitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookitTests.debug.xcconfig"; path = "Target Support Files/Pods-appbookitTests/Pods-appbookitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5588DD6B7B814CA3AF64C08D /* SFCompactDisplay-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Heavy.otf"; path = "../assets/fonts/SFCompactDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		57A3D06C1DAFBA3216095E69 /* Pods-appbookit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit.release.xcconfig"; path = "Target Support Files/Pods-appbookit/Pods-appbookit.release.xcconfig"; sourceTree = "<group>"; };
+		5912F4CEE273462CA61383A4 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		59C11CE39457FA9D998003B5 /* Pods-appbookitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookitTests.release.xcconfig"; path = "Target Support Files/Pods-appbookitTests/Pods-appbookitTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A0EA8EAB1A64022A76E4CBE /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		5A84C319B3D54B79AF75441D /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		5E36B642FC35442EBF22D61A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		6152DD0AF93141CC9DFBE51C /* HelveticaNeue-CondensedBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-CondensedBold.otf"; path = "../assets/fonts/HelveticaNeue-CondensedBold.otf"; sourceTree = "<group>"; };
+		624F2812BAAA46B6945693A5 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		635A41806C204E1B84FC00A4 /* SFCompactDisplay-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Ultralight.otf"; path = "../assets/fonts/SFCompactDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		65D9311292A5631DD9EF624A /* Pods-appbookit-appbookitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit-appbookitTests.release.xcconfig"; path = "Target Support Files/Pods-appbookit-appbookitTests/Pods-appbookit-appbookitTests.release.xcconfig"; sourceTree = "<group>"; };
+		6859ADD6167243BB8C5B7058 /* HelveticaNeue-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Light.otf"; path = "../assets/fonts/HelveticaNeue-Light.otf"; sourceTree = "<group>"; };
+		68D1DDDDE70A4414A3288A44 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		73E3EC8D523C4401A7CFF2FE /* SFCompactDisplay-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Thin.otf"; path = "../assets/fonts/SFCompactDisplay-Thin.otf"; sourceTree = "<group>"; };
+		7EFDA07508314224BD21AA3E /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		7FC12C5300CC4C3ABB2242E6 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		806E0B84EFF5484B8BE3A257 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		82E1749940D6D8FBEEBC0F85 /* libPods-appbookit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appbookit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FAA753373C46EC93CA2223 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		8420F8BDADAB4264ABA8AF92 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		90794CD6EC714D5D81C42773 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		928A80BABD8A4927BAC32682 /* SourceSansPro-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Bold.ttf"; path = "../assets/fonts/SourceSansPro-Bold.ttf"; sourceTree = "<group>"; };
+		92AFF1E8D7DF4B5BA339CB41 /* SourceSansPro-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Regular.ttf"; path = "../assets/fonts/SourceSansPro-Regular.ttf"; sourceTree = "<group>"; };
+		92EDE4B1EAB74666875750D0 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		9D9B5BF1959147DC88F5BF2E /* Lato-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Bold.ttf"; path = "../assets/fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		9DA88C2FEF8A4069AC23943B /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		A04168A77A724AD185BFA3C6 /* SFCompactDisplay-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Black.otf"; path = "../assets/fonts/SFCompactDisplay-Black.otf"; sourceTree = "<group>"; };
+		A2D0D79E5C924089A7516FC9 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		A7B01CEAAF1F4D7B898BC5B6 /* SFCompactDisplay-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Semibold.otf"; path = "../assets/fonts/SFCompactDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		A7B25B420B744498BB9A7CF1 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		A9EBEFF63DC24260852B537D /* HelveticaNeue-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "HelveticaNeue-Medium.otf"; path = "../assets/fonts/HelveticaNeue-Medium.otf"; sourceTree = "<group>"; };
+		AB9C350CC6194E30B53F1A8E /* Lato-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Thin.ttf"; path = "../assets/fonts/Lato-Thin.ttf"; sourceTree = "<group>"; };
+		B2DE6857C89E4AEC808B2DF7 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		B38D187A5F9C42EFBC845BA8 /* SFCompactDisplay-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Bold.otf"; path = "../assets/fonts/SFCompactDisplay-Bold.otf"; sourceTree = "<group>"; };
+		BA5C577BAB0D45AFA0EC3826 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		BB0EB290C17C4D198A6E9B9C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		BB86231A2FB7414CA06C602E /* SFCompactDisplay-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Light.otf"; path = "../assets/fonts/SFCompactDisplay-Light.otf"; sourceTree = "<group>"; };
+		BD17E439C125B476DBBEA0BD /* libPods-appbookit-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appbookit-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8157B048C74972BC603BB8 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		BF0623673D43465EA6EAA3A5 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		BF4FD9620E694A7D910F1C36 /* SFCompactDisplay-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Regular.otf"; path = "../assets/fonts/SFCompactDisplay-Regular.otf"; sourceTree = "<group>"; };
+		BFD67DD74FB84486A3A867EC /* SourceSansPro-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-Black.ttf"; path = "../assets/fonts/SourceSansPro-Black.ttf"; sourceTree = "<group>"; };
+		C158F37534524C368659D90F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		C292592B9A2C4E2C826721EB /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		C7C891E7498E4F8ABA27A425 /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		D336144E846034193F062E7C /* Pods-appbookit-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-appbookit-tvOSTests/Pods-appbookit-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D61E7885902CF84203F238AE /* libPods-appbookit-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appbookit-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD81415F53254FB07FD37687 /* Pods-appbookit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit-tvOS.release.xcconfig"; path = "Target Support Files/Pods-appbookit-tvOS/Pods-appbookit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DDC9D28C619E4E9BA01F119D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		DF72B8E2DFE12B3C13C0A04B /* libPods-appbookit-appbookitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appbookit-appbookitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DE48E236264D0E880CA74F /* Pods-appbookit-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-appbookit-tvOSTests/Pods-appbookit-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E34C8D2AC78A490EABE50F05 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		ECA48B5162C9183509130BA7 /* Pods-appbookit-appbookitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit-appbookitTests.debug.xcconfig"; path = "Target Support Files/Pods-appbookit-appbookitTests/Pods-appbookit-appbookitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EDBB7626EE3842C2B0420ABB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EE26010C327945AB976548E1 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		F2EAE6BF9E2A415C8DB9A972 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		F93FE1F1808AC184D631A52F /* Pods-appbookit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appbookit-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-appbookit-tvOS/Pods-appbookit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F97252E565A24A0AAE88BC46 /* SFCompactDisplay-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFCompactDisplay-Medium.otf"; path = "../assets/fonts/SFCompactDisplay-Medium.otf"; sourceTree = "<group>"; };
+		FBDB988E05C14394A5B7BCB3 /* SourceSansPro-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SourceSansPro-SemiBold.ttf"; path = "../assets/fonts/SourceSansPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		FD1D28A659644F4A979C1E9C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B035FCEEC58717B70465EB /* libPods-appbookit-appbookitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0405A08424230E6F0048EBA4 /* libRNGoogleSignin.a in Frameworks */,
+				A8466507A53D68D7DCE46B0C /* libPods-appbookit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C23E802D6D9F4B875294656 /* libPods-appbookit-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693ED96EDBC16020058BAA33 /* libPods-appbookit-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* appbookitTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* appbookitTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = appbookitTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* appbookit */ = {
+			isa = PBXGroup;
+			children = (
+				04B94909253D9884003762D6 /* LaunchScreen.storyboard */,
+				042A95462446BED300924E60 /* GoogleService-Info.plist */,
+				04CD24DA242F214500EDD1C5 /* Bookit.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = appbookit;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CD24DD242F2FDF00EDD1C5 /* UserNotifications.framework */,
+				0405A08324230E6F0048EBA4 /* libRNGoogleSignin.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				82E1749940D6D8FBEEBC0F85 /* libPods-appbookit.a */,
+				BD17E439C125B476DBBEA0BD /* libPods-appbookit-tvOS.a */,
+				D61E7885902CF84203F238AE /* libPods-appbookit-tvOSTests.a */,
+				DF72B8E2DFE12B3C13C0A04B /* libPods-appbookit-appbookitTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				04B949EE253D9AEC003762D6 /* File.swift */,
+				13B07FAE1A68108700A75B9A /* appbookit */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* appbookitTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				8EB51161780F13762088B09E /* Pods */,
+				C147F0A226804E5293BB32DC /* Resources */,
+				04B949EC253D9AEC003762D6 /* appbookit-Bridging-Header.h */,
+				04B949ED253D9AEC003762D6 /* appbookitTests-Bridging-Header.h */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ZiniStore.app */,
+				00E356EE1AD99517003FC87E /* appbookitTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* appbookit-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* appbookit-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB51161780F13762088B09E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5484B8A1989969E8B6AB5EBB /* Pods-appbookit.debug.xcconfig */,
+				57A3D06C1DAFBA3216095E69 /* Pods-appbookit.release.xcconfig */,
+				F93FE1F1808AC184D631A52F /* Pods-appbookit-tvOS.debug.xcconfig */,
+				DD81415F53254FB07FD37687 /* Pods-appbookit-tvOS.release.xcconfig */,
+				E1DE48E236264D0E880CA74F /* Pods-appbookit-tvOSTests.debug.xcconfig */,
+				D336144E846034193F062E7C /* Pods-appbookit-tvOSTests.release.xcconfig */,
+				552AFCCFE97B0A96F56167F7 /* Pods-appbookitTests.debug.xcconfig */,
+				59C11CE39457FA9D998003B5 /* Pods-appbookitTests.release.xcconfig */,
+				ECA48B5162C9183509130BA7 /* Pods-appbookit-appbookitTests.debug.xcconfig */,
+				65D9311292A5631DD9EF624A /* Pods-appbookit-appbookitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C147F0A226804E5293BB32DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A04168A77A724AD185BFA3C6 /* SFCompactDisplay-Black.otf */,
+				B38D187A5F9C42EFBC845BA8 /* SFCompactDisplay-Bold.otf */,
+				5588DD6B7B814CA3AF64C08D /* SFCompactDisplay-Heavy.otf */,
+				BB86231A2FB7414CA06C602E /* SFCompactDisplay-Light.otf */,
+				F97252E565A24A0AAE88BC46 /* SFCompactDisplay-Medium.otf */,
+				BF4FD9620E694A7D910F1C36 /* SFCompactDisplay-Regular.otf */,
+				A7B01CEAAF1F4D7B898BC5B6 /* SFCompactDisplay-Semibold.otf */,
+				73E3EC8D523C4401A7CFF2FE /* SFCompactDisplay-Thin.otf */,
+				635A41806C204E1B84FC00A4 /* SFCompactDisplay-Ultralight.otf */,
+				23F8F31D3E0B47B08BC37743 /* AntDesign.ttf */,
+				A2D0D79E5C924089A7516FC9 /* Entypo.ttf */,
+				DDC9D28C619E4E9BA01F119D /* EvilIcons.ttf */,
+				F2EAE6BF9E2A415C8DB9A972 /* Feather.ttf */,
+				5332615792114D6FAFCCE140 /* FontAwesome.ttf */,
+				EE26010C327945AB976548E1 /* FontAwesome5_Brands.ttf */,
+				BF0623673D43465EA6EAA3A5 /* FontAwesome5_Regular.ttf */,
+				82FAA753373C46EC93CA2223 /* FontAwesome5_Solid.ttf */,
+				34506C24B9424D48B6F328DC /* Fontisto.ttf */,
+				BD8157B048C74972BC603BB8 /* Foundation.ttf */,
+				C292592B9A2C4E2C826721EB /* Ionicons.ttf */,
+				8420F8BDADAB4264ABA8AF92 /* MaterialCommunityIcons.ttf */,
+				49CFA74E85D54242846410E7 /* MaterialIcons.ttf */,
+				BB0EB290C17C4D198A6E9B9C /* Octicons.ttf */,
+				9DA88C2FEF8A4069AC23943B /* Roboto_medium.ttf */,
+				C7C891E7498E4F8ABA27A425 /* Roboto.ttf */,
+				90794CD6EC714D5D81C42773 /* rubicon-icon-font.ttf */,
+				624F2812BAAA46B6945693A5 /* SimpleLineIcons.ttf */,
+				7EFDA07508314224BD21AA3E /* Zocial.ttf */,
+				26B7549DF7F24D82B20DB830 /* Lato-Black.ttf */,
+				9D9B5BF1959147DC88F5BF2E /* Lato-Bold.ttf */,
+				1CFA989D22E24F58B3398A10 /* Lato-Light.ttf */,
+				5A0EA8EAB1A64022A76E4CBE /* Lato-Regular.ttf */,
+				AB9C350CC6194E30B53F1A8E /* Lato-Thin.ttf */,
+				68D1DDDDE70A4414A3288A44 /* Montserrat-Bold.ttf */,
+				806E0B84EFF5484B8BE3A257 /* Montserrat-Light.ttf */,
+				92EDE4B1EAB74666875750D0 /* Montserrat-Medium.ttf */,
+				EDBB7626EE3842C2B0420ABB /* Montserrat-Regular.ttf */,
+				7FC12C5300CC4C3ABB2242E6 /* Montserrat-SemiBold.ttf */,
+				5A84C319B3D54B79AF75441D /* Montserrat-Thin.ttf */,
+				FD1D28A659644F4A979C1E9C /* Poppins-Bold.ttf */,
+				E34C8D2AC78A490EABE50F05 /* Poppins-Light.ttf */,
+				1E77DED06E7942A188A07938 /* Poppins-Medium.ttf */,
+				A7B25B420B744498BB9A7CF1 /* Poppins-Regular.ttf */,
+				BA5C577BAB0D45AFA0EC3826 /* Poppins-SemiBold.ttf */,
+				B2DE6857C89E4AEC808B2DF7 /* Poppins-Thin.ttf */,
+				3E0D414728EF44CB8947BE53 /* Roboto-Bold.ttf */,
+				28CD70C379D545A0AD225CF3 /* Roboto-Light.ttf */,
+				5912F4CEE273462CA61383A4 /* Roboto-Medium.ttf */,
+				5E36B642FC35442EBF22D61A /* Roboto-Regular.ttf */,
+				C158F37534524C368659D90F /* Roboto-Thin.ttf */,
+				BFD67DD74FB84486A3A867EC /* SourceSansPro-Black.ttf */,
+				928A80BABD8A4927BAC32682 /* SourceSansPro-Bold.ttf */,
+				39871516254E4BA9BE7B09B5 /* SourceSansPro-Light.ttf */,
+				92AFF1E8D7DF4B5BA339CB41 /* SourceSansPro-Regular.ttf */,
+				FBDB988E05C14394A5B7BCB3 /* SourceSansPro-SemiBold.ttf */,
+				17EB27540BB844D7A8C0F780 /* HelveticaNeue-Bold.otf */,
+				6152DD0AF93141CC9DFBE51C /* HelveticaNeue-CondensedBold.otf */,
+				6859ADD6167243BB8C5B7058 /* HelveticaNeue-Light.otf */,
+				A9EBEFF63DC24260852B537D /* HelveticaNeue-Medium.otf */,
+				492FCA8085BC460BBC0F3095 /* HelveticaNeue.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* appbookitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "appbookitTests" */;
+			buildPhases = (
+				F94031E6D111900CD1FF1A82 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				2CA92E3A93DA3A8147349445 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = appbookitTests;
+			productName = appbookitTests;
+			productReference = 00E356EE1AD99517003FC87E /* appbookitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* appbookit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "appbookit" */;
+			buildPhases = (
+				5FD454B4AD41F12B206C33DB /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				04CD24DF242F35BF00EDD1C5 /* ShellScript */,
+				360BC0B891228A42BFF602C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appbookit;
+			productName = appbookit;
+			productReference = 13B07F961A680F5B00A75B9A /* ZiniStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* appbookit-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "appbookit-tvOS" */;
+			buildPhases = (
+				BA057AFCFE796C0EAD09701F /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appbookit-tvOS";
+			productName = "appbookit-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* appbookit-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* appbookit-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "appbookit-tvOSTests" */;
+			buildPhases = (
+				E5D914129A8769E138C6EDA3 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "appbookit-tvOSTests";
+			productName = "appbookit-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* appbookit-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = BJ88U7QKBF;
+						LastSwiftMigration = 1200;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1200;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "appbookit" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* appbookit */,
+				00E356ED1AD99517003FC87E /* appbookitTests */,
+				2D02E47A1E0B4A5D006451C7 /* appbookit-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* appbookit-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B9490B253D9884003762D6 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042A954A2446C3A800924E60 /* GoogleService-Info.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				307589730D01425CBBDBBD89 /* SFCompactDisplay-Black.otf in Resources */,
+				84C71966B36B4A91B4371D61 /* SFCompactDisplay-Bold.otf in Resources */,
+				4957E3A08F0749CDA195049D /* SFCompactDisplay-Heavy.otf in Resources */,
+				8F492890C9BD49FA90D18E9D /* SFCompactDisplay-Light.otf in Resources */,
+				4E587C347470474CBD1828D8 /* SFCompactDisplay-Medium.otf in Resources */,
+				DA2B202B930441A6AFF5E579 /* SFCompactDisplay-Regular.otf in Resources */,
+				04B9490A253D9884003762D6 /* LaunchScreen.storyboard in Resources */,
+				A0259A0410924C1095596554 /* SFCompactDisplay-Semibold.otf in Resources */,
+				E19FDC558887407CB1417990 /* SFCompactDisplay-Thin.otf in Resources */,
+				496E1ED56D724928BA9AD02E /* SFCompactDisplay-Ultralight.otf in Resources */,
+				476555AA09DA4B33B70C7F59 /* AntDesign.ttf in Resources */,
+				B9A399845AFA4752A1F8CDF0 /* Entypo.ttf in Resources */,
+				85A5CA525F5C4B4EB8F60D80 /* EvilIcons.ttf in Resources */,
+				43E9E4D1D91B4572805D3181 /* Feather.ttf in Resources */,
+				D99E55E406F84C978F8BDC93 /* FontAwesome.ttf in Resources */,
+				688C552C370048A98C530278 /* FontAwesome5_Brands.ttf in Resources */,
+				C9A90472CA264B19930A6F56 /* FontAwesome5_Regular.ttf in Resources */,
+				754FD0065B0B4FD09855BCF8 /* FontAwesome5_Solid.ttf in Resources */,
+				FE72AC18538441F79C6B9120 /* Fontisto.ttf in Resources */,
+				7DA791CB033A44058E52E6D9 /* Foundation.ttf in Resources */,
+				401A6C67F69D41B99399656A /* Ionicons.ttf in Resources */,
+				16908F439EDC4F8F8B1E882A /* MaterialCommunityIcons.ttf in Resources */,
+				5561D3ED714645568D5C1D45 /* MaterialIcons.ttf in Resources */,
+				26211E8309AD45EA898FA34F /* Octicons.ttf in Resources */,
+				9D9C9BE502844A8D83364345 /* Roboto_medium.ttf in Resources */,
+				BCA7A2923B154F2B91D57FD5 /* Roboto.ttf in Resources */,
+				EDEC850C42CE4712B1DC9933 /* rubicon-icon-font.ttf in Resources */,
+				E5E550BE202C4B00998117AE /* SimpleLineIcons.ttf in Resources */,
+				0168D094A24B499687E434ED /* Zocial.ttf in Resources */,
+				2D11D8BC2BB44E2E8F4538E2 /* Lato-Black.ttf in Resources */,
+				6AF1283D41A7400ABE66240D /* Lato-Bold.ttf in Resources */,
+				D69B8AA76A424A689374CC1B /* Lato-Light.ttf in Resources */,
+				E58B5713FD38409DA7F5F261 /* Lato-Regular.ttf in Resources */,
+				AB8C103B18B843FD9491855B /* Lato-Thin.ttf in Resources */,
+				1B1C15EEFDB24DA38261EDF5 /* Montserrat-Bold.ttf in Resources */,
+				146D156CBC084D3CB1A1EB34 /* Montserrat-Light.ttf in Resources */,
+				7ED3C63AEE0A4BE9ABA08ECB /* Montserrat-Medium.ttf in Resources */,
+				1A29569322B74EAAA0AEF8D9 /* Montserrat-Regular.ttf in Resources */,
+				F4280594F839446A9F80D577 /* Montserrat-SemiBold.ttf in Resources */,
+				BC0B3B5DC2664A6F9D45266C /* Montserrat-Thin.ttf in Resources */,
+				5938D4A60FAC4F7D98820AE2 /* Poppins-Bold.ttf in Resources */,
+				51F01FFA44A04E2B996E4170 /* Poppins-Light.ttf in Resources */,
+				DB1C0846320441DC8CA39F85 /* Poppins-Medium.ttf in Resources */,
+				846DA35A7B274BE29EB86D66 /* Poppins-Regular.ttf in Resources */,
+				5BFDA191C51C4287ACE5D544 /* Poppins-SemiBold.ttf in Resources */,
+				4CECA4E0144A43D29DA7DD2F /* Poppins-Thin.ttf in Resources */,
+				8F25A3435BA847D6BA0B22CE /* Roboto-Bold.ttf in Resources */,
+				728E484623B44D1E9F7F83FB /* Roboto-Light.ttf in Resources */,
+				ADA93308EB7F4C09BA2F8771 /* Roboto-Medium.ttf in Resources */,
+				2AFE2AC82E9A4362865F04DE /* Roboto-Regular.ttf in Resources */,
+				1399A5741B7A4F3EB96FAA55 /* Roboto-Thin.ttf in Resources */,
+				54AC3284FA3A4F5184B5EA8A /* SourceSansPro-Black.ttf in Resources */,
+				B79947D6DBBD4A2ABAD11BE8 /* SourceSansPro-Bold.ttf in Resources */,
+				7788F2C2A77B45FA8D6D0324 /* SourceSansPro-Light.ttf in Resources */,
+				6C1F1B74158843BB85EA3917 /* SourceSansPro-Regular.ttf in Resources */,
+				E75BF56B67724230BB33F4C9 /* SourceSansPro-SemiBold.ttf in Resources */,
+				DCACFBDD42394E889FB55A31 /* HelveticaNeue-Bold.otf in Resources */,
+				64F885E885CF474A8FD5F0B0 /* HelveticaNeue-CondensedBold.otf in Resources */,
+				678E9004FD054C8A9288F810 /* HelveticaNeue-Light.otf in Resources */,
+				D391CB37F9F440988E0FA029 /* HelveticaNeue-Medium.otf in Resources */,
+				C334DB3C41754E7FAD25B71F /* HelveticaNeue.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		04CD24DF242F35BF00EDD1C5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		2CA92E3A93DA3A8147349445 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appbookit-appbookitTests/Pods-appbookit-appbookitTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appbookit-appbookitTests/Pods-appbookit-appbookitTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appbookit-appbookitTests/Pods-appbookit-appbookitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		360BC0B891228A42BFF602C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appbookit/Pods-appbookit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appbookit/Pods-appbookit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appbookit/Pods-appbookit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FD454B4AD41F12B206C33DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appbookit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA057AFCFE796C0EAD09701F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appbookit-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5D914129A8769E138C6EDA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appbookit-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94031E6D111900CD1FF1A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appbookit-appbookitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* appbookitTests.m in Sources */,
+				04B949F0253D9AEC003762D6 /* File.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				04B949EF253D9AEC003762D6 /* File.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* appbookitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* appbookit */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* appbookit-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECA48B5162C9183509130BA7 /* Pods-appbookit-appbookitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEVELOPMENT_TEAM = BJ88U7QKBF;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = appbookitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appbookitTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZiniStore.app/ZiniStore";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D9311292A5631DD9EF624A /* Pods-appbookit-appbookitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = BJ88U7QKBF;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = appbookitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "appbookitTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZiniStore.app/ZiniStore";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5484B8A1989969E8B6AB5EBB /* Pods-appbookit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = appbookit/Bookit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 32;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = BJ88U7QKBF;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = appbookit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zinisoft.zinistore;
+				PRODUCT_NAME = ZiniStore;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "appbookit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A3D06C1DAFBA3216095E69 /* Pods-appbookit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = appbookit/Bookit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 32;
+				DEVELOPMENT_TEAM = BJ88U7QKBF;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = appbookit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zinisoft.zinistore;
+				PRODUCT_NAME = ZiniStore;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "appbookit-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93FE1F1808AC184D631A52F /* Pods-appbookit-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = "appbookit-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.appbookit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD81415F53254FB07FD37687 /* Pods-appbookit-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = "appbookit-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.appbookit-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1DE48E236264D0E880CA74F /* Pods-appbookit-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = "appbookit-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.appbookit-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appbookit-tvOS.app/appbookit-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D336144E846034193F062E7C /* Pods-appbookit-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/..",
+				);
+				INFOPLIST_FILE = "appbookit-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.appbookit-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appbookit-tvOS.app/appbookit-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "appbookitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "appbookit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "appbookit-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "appbookit-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "appbookit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

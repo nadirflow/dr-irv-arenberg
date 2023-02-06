@@ -1,0 +1,213 @@
+/**
+ * ZiniAppBuilder Wordpress Plugin for Mobile App.
+ * Exclusively on Envato Market: https://codecanyon.net/user/zinisoft/portfolio
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       Copyright (C) 2018 - 2019 ZiniSoft ( https://zinisoft.net/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Brian Vo (info@zinisoft.net), ZiniSoft Team (support@zinisoft.net)
+ * @support         support@zinisoft.net
+ **/
+
+/**
+ * Top Fixed.
+ * ===================================================================== */
+body:not(.wp-admin)
+
+    .zs-ziniappbuilder-box.top-fixed
+        position: fixed
+        top: 0
+        left: 0
+        margin: 0 !important
+        max-width: 100% !important
+        width: 100%
+        z-index: 999999
+
+        .wp-audio-shortcode
+            max-width: 100% !important
+
+
+/**
+ * Bottom Fixed.
+ * ===================================================================== */
+body:not(.wp-admin)
+
+    .zs-ziniappbuilder-box.bottom-fixed,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.bottom-fixed
+        position: fixed
+        bottom: 0
+        left: 0
+        margin: 0 !important
+        max-width: 100% !important
+        width: 100%
+        z-index: 999999
+
+        .wp-audio-shortcode
+            max-width: 100% !important
+
+
+/**
+ * Player Styles
+ * ===================================================================== */
+.zs-ziniappbuilder-box,
+.et-db #et-boc .et-l .zs-ziniappbuilder-box
+
+    &.ziniappbuilder-round
+
+        border-radius: 10rem
+        height: 54px
+
+        &:hover
+            box-shadow: 0 0 10px #cccccc
+            transition: 1s
+
+
+        .mejs-container,
+        .mejs-embed,
+        .mejs-embed body
+            background: inherit
+            border-radius: 10rem
+            height: 54px
+
+
+        .mejs-controls
+            background: inherit
+            top: 7px
+            padding: 0 12px
+
+            .mejs-time-rail,
+            .mejs-horizontal-volume-slider
+
+                *
+                    border-radius: 10rem
+
+
+            .mejs-time-loaded
+                opacity: .25
+
+
+            .mejs-time-current
+                background: white
+
+
+        audio
+            display: none
+
+
+        *
+            outline: none
+
+
+    &.ziniappbuilder-rounded
+
+        border-radius: .5rem
+        height: 54px
+
+        &:hover
+            box-shadow: 0 0 10px #cccccc
+            transition: 1s
+
+
+        .mejs-container,
+        .mejs-embed,
+        .mejs-embed body
+            background: inherit
+            border-radius: .5rem
+            height: 54px
+
+
+        .mejs-controls
+            background: inherit
+            top: 7px
+            padding: 0 12px
+
+            .mejs-time-rail,
+            .mejs-horizontal-volume-slider
+
+                *
+                    border-radius: .125rem
+
+
+            .mejs-time-loaded
+                opacity: .25
+
+
+            .mejs-time-current
+                background: white
+
+
+        audio
+            display: none
+
+
+        *
+            outline: none
+
+
+    &.ziniappbuilder-squared
+
+        border-radius: 0
+        height: 54px
+
+        &:hover
+            box-shadow: 0 0 10px #cccccc
+            transition: 1s
+
+
+        .mejs-container,
+        .mejs-embed,
+        .mejs-embed body
+            background: inherit
+            border-radius: 0
+            height: 54px
+
+
+        .mejs-controls
+            background: inherit
+            top: 7px
+            padding: 0 12px
+
+            .mejs-time-loaded
+                opacity: .25
+
+
+            .mejs-time-current
+                background: white
+
+
+        audio
+            display: none
+
+
+        *
+            outline: none
+
+
+        &.ziniappbuilder-wp-default
+
+            background: transparent !important
+
+            audio
+                outline: none
+
+
+        &.ziniappbuilder-browser-default
+
+            background: transparent !important
+
+            audio
+                outline: none
+
+
+/* WPBakery player fix */
+#ajax-content-wrap
+
+    .mejs-container
+        background-color: transparent !important
+
+/* Download box */
+.zs-ziniappbuilder-download-box
+    padding-top: 0 !important
+    margin-top: 10px !important
+    font-size: 14px

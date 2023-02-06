@@ -1,0 +1,346 @@
+/**
+ * ZiniAppBuilder Wordpress Plugin for Mobile App.
+ * Exclusively on Envato Market: https://codecanyon.net/user/zinisoft/portfolio
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       Copyright (C) 2018 - 2019 ZiniSoft ( https://zinisoft.net/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Brian Vo (info@zinisoft.net), ZiniSoft Team (support@zinisoft.net)
+ * @support         support@zinisoft.net
+ **/
+
+$table-border: 1px solid rgba(2,116,230,.25)
+
+// Voice choice table
+#zs-ziniappbuilder-settings-language-tbl
+  border-collapse: separate
+  border-spacing: 0 12px
+  width: 100% !important
+  clear: both
+  max-width: none !important
+  font-family: "Roboto", sans-serif
+
+  tbody
+    border: none
+
+    tr
+      border-radius: 8px
+      background: white
+
+      td
+        border-top: $table-border
+        border-bottom: $table-border
+
+        &:first-of-type
+          border-radius: 8px 0 0 8px
+          border-left: $table-border
+
+        &:last-of-type
+          border-radius: 0 8px 8px 0
+          border-right: $table-border
+
+        span
+          background: white
+          border-radius: 4px
+          padding: 4px 6px
+          font-size: 11px
+          border: 1px solid #ccc
+          white-space: nowrap
+          font-weight: 500
+          letter-spacing: .01rem
+          display: inline-block
+          margin: 2px 0
+
+          img
+            margin-right: 4px
+            width: 10px
+            height: 10px
+            vertical-align: middle
+            margin-top: -2px
+
+        &.zs-voice-name
+          white-space: nowrap
+
+      &:hover
+        box-shadow: 0 0 8px 0 rgba(2,116,230,.08)
+        transition: .4s
+        background: rgba(2,116,230,.08)
+
+        td
+          border-color: rgba(2,116,230,.12)
+
+    tr.selected
+      background-color: #0253ee
+      color: white
+
+      span
+        background: rgba(10,33,56,.6)
+        border-color: rgba(10,33,56,.6)
+
+  thead
+
+    background-color: rgba(0, 0, 0, .04)
+    border-radius: 8px
+
+    th
+      padding: 10px 14px
+      width: auto !important
+
+      &:first-of-type
+        border-radius: 8px 0 0 8px
+
+      &:last-of-type
+        border-radius: 0 8px 8px 0
+
+      &:focus
+        outline: none
+
+#zs-ziniappbuilder-settings-language-select
+  min-width: 300px
+  min-height: 56px
+  background: white url(../images/input-placeholder.gif) left top no-repeat
+  display: block
+
+  .mdc-select
+    background: white
+
+    .mdc-floating-label
+      padding: 0 5px
+      margin-left: -5px
+
+table.display thead > tr > th.sorting_asc,
+table.display thead > tr > th.sorting_desc,
+table.display thead > tr > th.sorting,
+table.display thead > tr > td.sorting_asc,
+table.display thead > tr > td.sorting_desc,
+table.display thead > tr > td.sorting
+  padding-right: 30px
+
+.dataTables_wrapper .dataTables_length
+  margin-bottom: 10px
+
+table.dataTable tbody
+
+  td:first-of-type,
+  th:first-of-type
+    font-weight: 500
+    padding-left: 1.5rem
+
+table.dataTable tfoot td,
+table.dataTable tfoot th
+  padding: 10px 8px
+
+.zs-key-file-fld
+  display: block
+  overflow: hidden
+  height: 0
+  transition: all 0.5s ease-in-out
+
+  .zs-show-btn
+    position: absolute
+    text-decoration: none
+    font-size: 12px
+    text-transform: uppercase
+    border-bottom: 1px dashed
+
+  &.active
+    height: 60px
+
+    .zs-show-btn
+      display: none
+
+#zs-ziniappbuilder-settings-language-tbl_wrapper
+  position: relative
+
+  #zs-ziniappbuilder-settings-language-tbl_filter
+    display: none
+
+  thead
+    width: 100%
+
+    tr
+      width: 100%
+
+    th
+      font-size: 12px
+      font-weight: 500
+
+  tbody
+    width: 100%
+
+    *
+      cursor: pointer
+
+  .dataTables_length
+    position: absolute
+    bottom: 0
+
+// Below are styles by MD
+.zs-ziniappbuilder-helper-padding
+  padding-bottom: 14px
+
+.zs-upload
+
+  div
+    display: flex
+    align-items: center
+
+    .zs-key-file-name
+      margin-left: 16px
+      font-weight: bold
+
+  button
+    height: 54px
+    padding: 0 16px
+    font-size: .9rem
+    border-radius: 8px
+
+.zs-now-used
+  display: flex
+  align-items: stretch
+  background-color: #f1f3f4
+  border-radius: 8px
+  width: fit-content
+
+  div
+    display: flex
+    align-items: center
+
+    &:first-of-type
+      background: #23282d
+      border-radius: 8px 0 0 8px
+      padding: 0 1.25rem
+
+  audio:focus
+    outline: none
+
+  strong
+    color: white
+    font-family: "Roboto", sans-serif
+    font-weight: 500
+
+.zs-key-error
+  background: #fff1f0
+  color: #d85030
+  border: 1px solid rgba(216, 80, 48, .3)
+  padding: 10px
+  border-radius: 4px
+  text-shadow: 0 1px 0 #fff
+
+.zs-lang-name
+  padding: 1.25rem 1rem !important
+
+.zs-plugin-version
+  font-size: 0.8rem
+  padding-left: 20px
+
+.zs-activation-status
+
+  &.activated
+
+    i
+      color: #0BDF6A
+
+  &.not-activated
+    color: #ff495c
+
+    i
+      color: #ff495c
+
+.zs-activation
+
+  .zs-info-box
+    border: 1px solid #b9b9b9
+    padding: 20px
+    box-sizing: border-box
+    width: 100%
+    max-width: 300px
+    margin-top: 10px
+    border-radius: 8px
+
+  .zs-title
+    font-weight: bold
+    line-height: 2
+    font-size: 16px
+
+.zs-ziniappbuilder-server .mdc-system-requirements-table .mdc-system-value
+  display: inline-block
+
+/* License */
+.zs-activation
+  display: flex
+  justify-content: space-between
+
+  h3
+    margin-bottom: 30px !important
+
+  .zs-activation-form
+    width: 300px
+    position: relative
+    padding-bottom: 30px
+
+    .zs-activate-license-btn
+      height: 52px
+      width: 52px
+      padding: 0
+      border-radius: 0 8px 8px 0
+      font-size: .75rem
+      position: absolute
+      right: 2px
+      top: 54px
+      background: linear-gradient( to right, rgba( 255, 255, 255, 0 ), rgba( 255, 255, 255, 1), rgba( 255, 255, 255, 1), rgba( 255, 255, 255, 1) )
+
+      i
+        font-size: 18px
+
+      &:hover,
+      &:focus
+        background: linear-gradient( to right, rgba( 255, 255, 255, 0 ), rgba( 255, 255, 255, 1), rgba( 255, 255, 255, 1), rgba( 255, 255, 255, 1) )
+
+    .mdc-ripple-upgraded:hover::before
+      opacity: 0
+
+  .zs-activation-faq
+    width: calc( 100% - 330px )
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 782px)
+
+  #zs-ziniappbuilder-settings-language-tbl
+
+    tbody
+
+      tr
+
+        td
+          border-top: none
+          border-bottom: none
+          border-left: $table-border
+          border-right: $table-border
+          padding: 0 10px
+
+          &:first-of-type
+            border-top: $table-border
+            border-radius: 8px 8px 0 0
+            padding: 10px 10px 4px 10px !important
+
+          &:last-of-type
+            border-bottom: $table-border
+            border-radius: 0 0 8px 8px
+            padding: 0 10px 10px 10px
+
+@media screen and (max-width: 1080px)
+
+  .zs-activation
+    flex-direction: column
+
+    .zs-activation-form,
+    .zs-activation-faq,
+    .mdc-input-width
+      width: 100%
+      max-width: 100% !important
+

@@ -1,0 +1,17 @@
+## Version 2.0.0 (Aug 27, 2021)
+* Merge all features to unique plugins
+* Add payment via WebView
+* Remove features Ad Mode ( Google do not allow Ads into E-Commerce App )
+
+## Version 1.0.4 (Apr 27, 2021)
+Remove 404 (Not Found) css link frontend
+
+## Version 1.0.2 (Dec 15, 2020)
+* Add caching function base con WP REST Cache (https://wordpress.org/plugins/wp-rest-cache)
+* Add setting Right To Left (RTL)
+
+## Version 1.0.1 (May 20, 2020)
+* Add more social settings
+
+## Version 1.0.0 (March 04, 2020)
+* Initial release

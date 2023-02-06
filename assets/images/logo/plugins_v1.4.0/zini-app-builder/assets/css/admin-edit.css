@@ -1,0 +1,84 @@
+/**
+ * ZiniAppBuilder Wordpress Plugin for Mobile App.
+ * Exclusively on Envato Market: https://codecanyon.net/user/zinisoft/portfolio
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       Copyright (C) 2018 - 2019 ZiniSoft ( https://zinisoft.net/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Brian Vo (info@zinisoft.net), ZiniSoft Team (support@zinisoft.net)
+ * @support         support@zinisoft.net
+ **/
+.fixed .column-ziniappbuilder {
+  width: 5.5em;
+  padding: 8px 0;
+  text-align: center; }
+
+.zs-ziniappbuilder-ico {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogIzQ0NDsKICAgICAgICBmaWxsLXJ1bGU6IGV2ZW5vZGQ7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxwYXRoIGlkPSJQb2x5Z29uXzMiIGRhdGEtbmFtZT0iUG9seWdvbiAzIiBjbGFzcz0iY2xzLTEiIGQ9Ik0xODAsMEgzMzJBMTgwLDE4MCwwLDAsMSw1MTIsMTgwVjMzMkExODAsMTgwLDAsMCwxLDMzMiw1MTJIMTgwQTE4MCwxODAsMCwwLDEsMCwzMzJWMTgwQTE4MCwxODAsMCwwLDEsMTgwLDBaTTMxMy4wMjMsMzU0LjIyM3EtMTcwLjEsOTguMjA3LTE3MC4xLTk4LjIwOHQxNzAuMS05OC4yMDdRNDgzLjEyMywyNTYuMDE2LDMxMy4wMjMsMzU0LjIyM1oiLz4KPC9zdmc+Cg==");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center; }
+
+.column-ziniappbuilder img {
+  height: 16px;
+  margin-top: 2px; }
+
+.column-ziniappbuilder a {
+  display: block;
+  outline: none; }
+  .column-ziniappbuilder a:focus {
+    box-shadow: none; }
+
+.column-ziniappbuilder .zs-ziniappbuilder-download {
+  height: 16px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMnB4IiB2aWV3Qm94PSIwIDAgMTAgMTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU3LjEgKDgzMDg4KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5hdWRpbzwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY1Ni4wMDAwMDAsIC0xNTQuMDAwMDAwKSIgZmlsbD0iIzUxRDIwMCI+CiAgICAgICAgICAgIDxwYXRoIGQ9Ik02NTYsMTU2LjUxMjM2MiBMNjU2LDE2My4yNjk4NTYgQzY1NiwxNjQuMzc0NDI2IDY1Ni44OTU0MzEsMTY1LjI2OTg1NiA2NTgsMTY1LjI2OTg1NiBDNjU4LjM1OTE3NSwxNjUuMjY5ODU2IDY1OC43MTE3MjEsMTY1LjE3MzEzMiA2NTkuMDIwNjA5LDE2NC45ODk4NDQgTDY2NC43MTQ2NjIsMTYxLjYxMTA5NyBDNjY1LjY2NDU4NSwxNjEuMDQ3NDMgNjY1Ljk3NzcwNywxNTkuODIwNDIzIDY2NS40MTQwNDEsMTU4Ljg3MDUgQzY2NS4yNDMxNDUsMTU4LjU4MjQ5NyA2NjUuMDAyNjY1LDE1OC4zNDIwMTcgNjY0LjcxNDY2MiwxNTguMTcxMTIyIEw2NTkuMDIwNjA5LDE1NC43OTIzNzQgQzY1OC4wNzA2ODYsMTU0LjIyODcwNyA2NTYuODQzNjc5LDE1NC41NDE4MyA2NTYuMjgwMDEzLDE1NS40OTE3NTMgQzY1Ni4wOTY3MjQsMTU1LjgwMDY0MSA2NTYsMTU2LjE1MzE4NyA2NTYsMTU2LjUxMjM2MiBaIiBpZD0iYXVkaW8iPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-top: 3px; }
+
+.column-ziniappbuilder .zs-ziniappbuilder-error {
+  height: 16px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMHB4IiB2aWV3Qm94PSIwIDAgMTAgMTAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU3LjEgKDgzMDg4KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5lcnJvcjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYyMC4wMDAwMDAsIC0xNjkuMDAwMDAwKSIgZmlsbD0iI0UxMjEyMSI+CiAgICAgICAgICAgIDxyZWN0IGlkPSJlcnJvciIgeD0iNjIwIiB5PSIxNjkiIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCIgcng9IjIiPjwvcmVjdD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-top: 3px; }
+
+.column-ziniappbuilder .is-busy {
+  height: 16px;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTBweCIgaGVpZ2h0PSIxMnB4IiB2aWV3Qm94PSIwIDAgMTAgMTIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU3LjEgKDgzMDg4KSAtIGh0dHBzOi8vc2tldGNoLmNvbSAtLT4KICAgIDx0aXRsZT5idXN5PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkFydGJvYXJkIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjM4LjAwMDAwMCwgLTE1NC4wMDAwMDApIiBmaWxsPSIjQ0NDQ0NDIj4KICAgICAgICAgICAgPHBhdGggZD0iTTYzOCwxNTYuNTEyMzYyIEw2MzgsMTYzLjI2OTg1NiBDNjM4LDE2NC4zNzQ0MjYgNjM4Ljg5NTQzMSwxNjUuMjY5ODU2IDY0MCwxNjUuMjY5ODU2IEM2NDAuMzU5MTc1LDE2NS4yNjk4NTYgNjQwLjcxMTcyMSwxNjUuMTczMTMyIDY0MS4wMjA2MDksMTY0Ljk4OTg0NCBMNjQ2LjcxNDY2MiwxNjEuNjExMDk3IEM2NDcuNjY0NTg1LDE2MS4wNDc0MyA2NDcuOTc3NzA3LDE1OS44MjA0MjMgNjQ3LjQxNDA0MSwxNTguODcwNSBDNjQ3LjI0MzE0NSwxNTguNTgyNDk3IDY0Ny4wMDI2NjUsMTU4LjM0MjAxNyA2NDYuNzE0NjYyLDE1OC4xNzExMjIgTDY0MS4wMjA2MDksMTU0Ljc5MjM3NCBDNjQwLjA3MDY4NiwxNTQuMjI4NzA3IDYzOC44NDM2NzksMTU0LjU0MTgzIDYzOC4yODAwMTMsMTU1LjQ5MTc1MyBDNjM4LjA5NjcyNCwxNTUuODAwNjQxIDYzOCwxNTYuMTUzMTg3IDYzOCwxNTYuNTEyMzYyIFoiIGlkPSJidXN5Ij48L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  margin-top: 3px;
+  -webkit-animation-name: zs-is-busy-animation;
+          animation-name: zs-is-busy-animation;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit; }
+
+@-webkit-keyframes zs-is-busy-animation {
+  from {
+    opacity: 1; }
+  to {
+    opacity: .5; } }
+
+@keyframes zs-is-busy-animation {
+  from {
+    opacity: 1; }
+  to {
+    opacity: .5; } }
+
+@media screen and (max-width: 782px) {
+  .wp-list-table tr:not(.inline-edit-row):not(.no-items) td.column-ziniappbuilder::before {
+    text-align: left; }
+  .column-ziniappbuilder .zs-ziniappbuilder-download {
+    background-position: left center; } }

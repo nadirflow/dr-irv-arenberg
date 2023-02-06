@@ -1,0 +1,183 @@
+/**
+ * ZiniAppBuilder Wordpress Plugin for Mobile App.
+ * Exclusively on Envato Market: https://codecanyon.net/user/zinisoft/portfolio
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       Copyright (C) 2018 - 2019 ZiniSoft ( https://zinisoft.net/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Brian Vo (info@zinisoft.net), ZiniSoft Team (support@zinisoft.net)
+ * @support         support@zinisoft.net
+ **/
+/**
+ * Top Fixed.
+ * ===================================================================== */
+body:not(.wp-admin) .zs-ziniappbuilder-box.top-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  max-width: 100% !important;
+  width: 100%;
+  z-index: 999999; }
+  body:not(.wp-admin) .zs-ziniappbuilder-box.top-fixed .wp-audio-shortcode {
+    max-width: 100% !important; }
+
+/**
+ * Bottom Fixed.
+ * ===================================================================== */
+body:not(.wp-admin) .zs-ziniappbuilder-box.bottom-fixed,
+body:not(.wp-admin) .et-db #et-boc .et-l .zs-ziniappbuilder-box.bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0 !important;
+  max-width: 100% !important;
+  width: 100%;
+  z-index: 999999; }
+  body:not(.wp-admin) .zs-ziniappbuilder-box.bottom-fixed .wp-audio-shortcode,
+  body:not(.wp-admin) .et-db #et-boc .et-l .zs-ziniappbuilder-box.bottom-fixed .wp-audio-shortcode {
+    max-width: 100% !important; }
+
+/**
+ * Player Styles
+ * ===================================================================== */
+.zs-ziniappbuilder-box.ziniappbuilder-round,
+.et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round {
+  border-radius: 10rem;
+  height: 54px; }
+  .zs-ziniappbuilder-box.ziniappbuilder-round:hover,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round:hover {
+    box-shadow: 0 0 10px #cccccc;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-container,
+  .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-embed,
+  .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-embed body,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-container,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-embed,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-embed body {
+    background: inherit;
+    border-radius: 10rem;
+    height: 54px; }
+  .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls {
+    background: inherit;
+    top: 7px;
+    padding: 0 12px; }
+    .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-time-rail *,
+    .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-horizontal-volume-slider *,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-time-rail *,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-horizontal-volume-slider * {
+      border-radius: 10rem; }
+    .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-time-loaded,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-time-loaded {
+      opacity: .25; }
+    .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-time-current,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round .mejs-controls .mejs-time-current {
+      background: white; }
+  .zs-ziniappbuilder-box.ziniappbuilder-round audio,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round audio {
+    display: none; }
+  .zs-ziniappbuilder-box.ziniappbuilder-round *,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-round * {
+    outline: none; }
+
+.zs-ziniappbuilder-box.ziniappbuilder-rounded,
+.et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded {
+  border-radius: .5rem;
+  height: 54px; }
+  .zs-ziniappbuilder-box.ziniappbuilder-rounded:hover,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded:hover {
+    box-shadow: 0 0 10px #cccccc;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-container,
+  .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-embed,
+  .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-embed body,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-container,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-embed,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-embed body {
+    background: inherit;
+    border-radius: .5rem;
+    height: 54px; }
+  .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls {
+    background: inherit;
+    top: 7px;
+    padding: 0 12px; }
+    .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-time-rail *,
+    .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-horizontal-volume-slider *,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-time-rail *,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-horizontal-volume-slider * {
+      border-radius: .125rem; }
+    .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-time-loaded,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-time-loaded {
+      opacity: .25; }
+    .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-time-current,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded .mejs-controls .mejs-time-current {
+      background: white; }
+  .zs-ziniappbuilder-box.ziniappbuilder-rounded audio,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded audio {
+    display: none; }
+  .zs-ziniappbuilder-box.ziniappbuilder-rounded *,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-rounded * {
+    outline: none; }
+
+.zs-ziniappbuilder-box.ziniappbuilder-squared,
+.et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared {
+  border-radius: 0;
+  height: 54px; }
+  .zs-ziniappbuilder-box.ziniappbuilder-squared:hover,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared:hover {
+    box-shadow: 0 0 10px #cccccc;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-container,
+  .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-embed,
+  .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-embed body,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-container,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-embed,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-embed body {
+    background: inherit;
+    border-radius: 0;
+    height: 54px; }
+  .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-controls,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-controls {
+    background: inherit;
+    top: 7px;
+    padding: 0 12px; }
+    .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-controls .mejs-time-loaded,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-controls .mejs-time-loaded {
+      opacity: .25; }
+    .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-controls .mejs-time-current,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared .mejs-controls .mejs-time-current {
+      background: white; }
+  .zs-ziniappbuilder-box.ziniappbuilder-squared audio,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared audio {
+    display: none; }
+  .zs-ziniappbuilder-box.ziniappbuilder-squared *,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared * {
+    outline: none; }
+  .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-wp-default,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-wp-default {
+    background: transparent !important; }
+    .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-wp-default audio,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-wp-default audio {
+      outline: none; }
+  .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-browser-default,
+  .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-browser-default {
+    background: transparent !important; }
+    .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-browser-default audio,
+    .et-db #et-boc .et-l .zs-ziniappbuilder-box.ziniappbuilder-squared.ziniappbuilder-browser-default audio {
+      outline: none; }
+
+/* WPBakery player fix */
+#ajax-content-wrap .mejs-container {
+  background-color: transparent !important; }
+
+/* Download box */
+.zs-ziniappbuilder-download-box {
+  padding-top: 0 !important;
+  margin-top: 10px !important;
+  font-size: 14px; }

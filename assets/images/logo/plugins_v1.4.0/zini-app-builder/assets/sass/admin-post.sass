@@ -1,0 +1,121 @@
+/**
+ * ZiniAppBuilder Wordpress Plugin for Mobile App.
+ * Exclusively on Envato Market: https://codecanyon.net/user/zinisoft/portfolio
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       Copyright (C) 2018 - 2019 ZiniSoft ( https://zinisoft.net/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Brian Vo (info@zinisoft.net), ZiniSoft Team (support@zinisoft.net)
+ * @support         support@zinisoft.net
+ **/
+
+.zs-warning
+  padding: 10px
+  border: 1px solid rgba(226, 131, 39, .3)
+  border-radius: 4px
+  text-shadow: 0 1px 0 #fff
+  background: #fffceb
+  color: #e28327
+
+
+#poststuff
+
+  .inside
+    margin: 0
+
+#zs_ziniappbuilder_box_id
+
+  h2.hndle
+    color: #191e23 !important
+    font-size: 13px
+
+  .inside
+    padding: 16px
+
+  .components-panel__row
+    margin-top: 4px
+
+#zs_ziniappbuilder_generate
+  margin: 10px 0
+  height: 30px
+  line-height: 28px
+  padding: 0 12px 2px
+  text-align: center
+  background: #0085ba
+  border-color: #0073aa #006799 #006799
+  box-shadow: 0 1px 0 #006799
+  color: #fff
+  text-decoration: none
+  text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799
+  vertical-align: top
+  font-size: 13px
+  display: inline-block
+  cursor: pointer
+  border-width: 1px
+  border-style: solid
+  -webkit-appearance: none
+  border-radius: 3px
+  white-space: nowrap
+  box-sizing: border-box
+
+  &.is-busy
+    color: #fff
+    background-size: 100px 100%
+    background-image: linear-gradient(-45deg, #0085ba 28%, #005d82 0, #005d82 72%, #0085ba 0)
+    border-color: #00435d
+    animation: zs-busy-animation 2.5s linear infinite
+
+
+#zs_ziniappbuilder_remove
+  height: 30px
+  margin: 10px 0
+  color: #c92c2c
+  box-sizing: border-box
+
+  &.is-busy
+    color: #fff
+    background-size: 100px 100% !important
+    background-image: linear-gradient(-45deg, #c92c2c 28%, #8e2424 0, #8e2424 72%, #c92c2c 0) !important
+    border-color: #8e2424
+    animation: zs-busy-animation 2.5s linear infinite !important
+
+
+@keyframes zs-busy-animation
+  0%
+    background-position: 200px 0
+
+
+//Import the player skins
+@import "ziniappbuilder"
+
+// ZiniAppBuilder player
+.zs-ziniappbuilder-box
+  overflow: hidden
+
+  .mejs-controls
+    width: inherit
+
+  .mejs-mute
+    display: none
+
+// Audio info
+.zs-ziniappbuilder-audio-info
+  padding: 10px 0 0 0
+
+  .dashicons
+    font-size: 16px
+    line-height: 18px
+
+[ziniappbuilder-break],
+[data-ziniappbuilder-break]
+  background: #fff
+  border-radius: 4px
+  padding: 2px 5px
+  font-size: 12px
+  border: 1px solid #ccc
+  white-space: nowrap
+  font-weight: 500
+  letter-spacing: .01rem
+  display: inline-block
+  margin: 2px 0

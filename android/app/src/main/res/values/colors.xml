@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark">#000000</color>
+
+    <color name="payumoney_label_color">#909090</color>
+    <color name="payumoney_primary">#3fab3c</color>
+    <color name="payumoney_primary_dark">#3fab3c</color>
+    <color name="payumoney_separator_color">#F3F2F2</color>
+    <color name="payumoney_text_color">#575757</color>
+    <color name="payumoney_white">#FFFFFF</color>
+</resources>

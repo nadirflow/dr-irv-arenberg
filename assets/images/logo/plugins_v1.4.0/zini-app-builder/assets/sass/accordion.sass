@@ -1,0 +1,73 @@
+/**
+ * ZiniAppBuilder Wordpress Plugin for Mobile App.
+ * Exclusively on Envato Market: https://codecanyon.net/user/zinisoft/portfolio
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       Copyright (C) 2018 - 2019 ZiniSoft ( https://zinisoft.net/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Brian Vo (info@zinisoft.net), ZiniSoft Team (support@zinisoft.net)
+ * @support         support@zinisoft.net
+ **/
+
+.zs-accordion
+  font-family: "Roboto", sans-serif
+  -webkit-font-smoothing: antialiased
+  color: #0a2138
+  font-weight: 400
+  font-size: 14px
+
+  h3
+    margin-bottom: 30px
+
+/* ========================================================================
+   Component: Accordion
+ ========================================================================== */
+/* Sub-object: `zs-accordion-title`
+ ========================================================================== */
+.zs-accordion-title
+  margin-top: 0
+  margin-bottom: 15px
+  cursor: pointer
+  border-radius: 8px
+  background: rgba(10,33,45,.04)
+  height: 56px
+  display: flex
+  align-items: center
+  padding: 0 16px
+
+  .mdc-list-item__text
+    white-space: normal
+
+  i
+    color: rgba(10,33,56,.6)
+    font-size: 18px
+    margin-right: 12px
+
+  span
+    font-weight: 500
+
+  &:hover
+    background: rgba(10,33,45,.08)
+
+
+/* Sub-object: `zs-accordion-content`
+ ========================================================================== */
+.zs-accordion-content
+  padding: 0 15px 20px 15px
+  color: rgba(10,33,56,.75)
+
+  p
+    font-size: 14px
+
+/*
+ * Micro clearfix to make panels more robust
+ */
+.zs-accordion-content:before,
+.zs-accordion-content:after
+  content: ""
+  display: table
+
+.zs-accordion-content:after
+  clear: both
+
