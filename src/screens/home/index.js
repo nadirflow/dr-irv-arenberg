@@ -699,6 +699,12 @@ class Home extends React.Component {
       _about_author : 1
     })
   }
+  _onPressLogoBack = () => {
+    console.log('_onPressLogoBack');
+    this.setState({
+      _about_author : 1
+    })
+  }
   _onPressOverview = () => {
     this.setState({
       _about_author : 3
@@ -805,7 +811,8 @@ class Home extends React.Component {
             onPressVideos: this._onPressVideos,
             onPressOverview: this._onPressOverview,
             onUpdateDetails: this._updateDetails,
-            onUpdateEntries: this._onUpdateEntries
+            onUpdateEntries: this._onUpdateEntries,
+            onPressLogoBack: this._onPressLogoBack
           }}
         />
       </Drawer>

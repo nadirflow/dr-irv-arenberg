@@ -28,7 +28,7 @@ import styles from './style';
 const RenderSectionHeader = (title) => {
   return (
     <Separator bordered style={styles.con_section_list}>
-      <CText style={[cStyles.txt_title_group, Configs.supportRTL && cStyles.txt_RTL]}>
+      <CText style={[cStyles.txt_title_group, Configs.supportRTL && cStyles.txt_RTL, {color: '#18504D'}]}>
         {moment(title, "YYYY-MM").format("MMMM YYYY")}
       </CText>
     </Separator>
@@ -135,9 +135,9 @@ const RenderAppointmentItem = (index, data, onPress) => {
           </View>
           {Configs.allowBooking &&
             <View style={styles.con_row_item}>
-              <CText style={styles.txt_row_item} i18nKey={'date'} />
+              <CText style={[styles.txt_row_item, {color: '#000'}]} i18nKey={'date'} />
               <CText style={styles.txt_group_right}>{``}</CText>
-              <CText style={styles.txt_row_item}>{`: ${day} ${time}`}</CText>
+              <CText style={[styles.txt_row_item, {color: '#000'}]}>{`: ${day} ${time}`}</CText>
             </View>
           }
         </View>

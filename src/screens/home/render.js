@@ -210,6 +210,7 @@ export const ViewHome = ({
     onPressOverview: () => { },
     onUpdateDetails: () => { },
     onUpdateEntries: () => { },
+    onPressLogoBack: () => { },
   }
 }) => {
   // const [entries, setEntries] = useState([]); 
@@ -299,7 +300,13 @@ export const ViewHome = ({
             onPressRight_1={onFunction.onPressCart}
             // onPressRight_2={onFunction.onFocusSearch}
           />
-          <View style={{paddingHorizontal:Devices.sW(5), marginTop:Devices.sH(1)}}>
+          <View style={{paddingHorizontal:Devices.sW(5), marginTop:Devices.sH(1), flexDirection:'row'}}>
+          {state._about_author > 1  ?
+            <Pressable onPress={onFunction.onPressLogoBack} style={{marginRight:10, marginTop:5,}}>
+              <Icon name={'angle-left'} size={Devices.fS(22)} color={'white'} type={ "regular" } />
+            </Pressable>
+            :
+            <></>}
             <Text style={{color:'#fff', fontSize:Devices.fS(22), fontWeight:'600'}}>Love & Murder</Text>
           </View>
         </View>

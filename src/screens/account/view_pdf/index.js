@@ -47,15 +47,16 @@ class ViewPdf extends React.PureComponent {
   }
 
   render() {
-    console.log('render');
+    console.log(this.state.source);
     return (
       <Container>
         <CHeader
+          style={{backgroundColor: '#18504D'}}
           customTitle="true"
           title={this.state.source ? this.state.source.title: "pdf_view"}
           iconLeft_1={Configs.supportRTL ? "angle-right" : "angle-left"}
           iconRight_1={"none"}
-          // onPressLeft_1={this._onPressBack}
+          onPressLeft_1={this._onPressBack}
         />
           
         <View style={ styles2.container } >
