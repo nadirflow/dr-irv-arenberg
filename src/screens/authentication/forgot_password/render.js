@@ -7,7 +7,7 @@
 /* LIBRARY */
 import React from 'react';
 import {
-  FlatList, TouchableWithoutFeedback, Keyboard, Text
+  FlatList, TouchableWithoutFeedback, Keyboard, Text, ImageBackground
 } from 'react-native';
 import {
   Container, Content, Item, Input, Label, Button,
@@ -18,11 +18,13 @@ import OTPTextInput from 'react-native-otp-textinput';
 /* COMPONENTS */
 import CText from '~/components/CText';
 /* COMMON */
-import { Configs, Devices, Languages } from '~/config';
+import { Assets, Configs, Devices, Languages } from '~/config';
 import { Colors } from '~/utils/colors';
 import { cStyles } from '~/utils/styles';
 /* STYLES */
 import styles from './style';
+
+
 
 let listRef = null;
 const steps = [{}, {}, {}]
@@ -41,16 +43,15 @@ export const ViewForgotPassword = ({
   }
 }) => {
   return (
+    
+    
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-      <Container style={cStyles.container_auth}>
+      
+      <ImageBackground source={Assets.wel} resizeMode='cover' style={{flex:1,  paddingTop:25, }}>
+      
+      <Container style={[cStyles.container_auth, {backgroundColor:''} ]}>
         <Content style={cStyles.flex_full} contentContainerStyle={[cStyles.ph_20, styles.con_header]}>
-          <Button style={styles.con_btn_back} transparent rounded onPress={onFunction.onPressBack} >
-            <Icon containerStyle={styles.con_icon_back}
-              name={"times-circle"}
-              size={Devices.fS(25)}
-              color={'#C1A050'}
-              type={"regular"} />
-          </Button>
+          
 
           <FlatList
             ref={(ref) => listRef = ref}
@@ -64,12 +65,12 @@ export const ViewForgotPassword = ({
               if (state._pageIndex === 0) {
                 return (
                   <Form style={styles.con_form_sign_in}>
-                    <Text style={styles.txt_title_step}>{Languages[props.language].step_1}</Text>
-                    <Text style={styles.txt_title}>{Languages[props.language].txt_forgot_password}</Text>
+                    <Text style={[styles.txt_title_step, {color: '#313030'}]}>{Languages[props.language].step_1}</Text>
+                    <Text style={[styles.txt_title, {color:'#313030'}]}>{Languages[props.language].txt_forgot_password}</Text>
 
-                    <Item style={styles.con_input} floatingLabel last error={state._errorEmail !== ""}>
-                      <Label style={[styles.con_label, {marginTop:Devices.sH(-0.7)}]}><CText style={[styles.txt_label, {fontSize:Devices.fS(10), } ]} i18nKey={'email'} /></Label>
-                      <Input style={[styles.txt_input, Configs.supportRTL && cStyles.txt_RTL]}
+                    {/* <Item style={styles.con_input} floatingLabel last error={state._errorEmail !== ""}> */}
+                      {/* <Label style={styles.con_label}><CText style={styles.txt_label} i18nKey={'email'} /></Label> */}
+                      <Input style={{ backgroundColor:'##313030', borderRadius:6, paddingHorizontal:15, marginTop:5}}
                         keyboardType={'email-address'}
                         value={state._email}
                         disabled={state._loading}
@@ -77,22 +78,25 @@ export const ViewForgotPassword = ({
                         blurOnSubmit={false}
                         autoFocus={true}
                         returnKeyType={'next'}
+                        placeholder={'Email'}
+
+                        placeholderTextColor={'#313030'}
                         selectionColor={Colors.BLACK_COLOR}
                         onChangeText={(value) => onFunction.onChangeEmail(value)}
                         onSubmitEditing={() => onFunction.onPressResetPassword(listRef)}
                       />
-                    </Item>
+                    {/* </Item> */}
                     {(typeof state._errorEmail === "string" && state._errorEmail !== "") &&
-                      <CText numberOfLines={2} style={styles.txt_error} i18nKey={state._errorEmail} />}
+                      <CText numberOfLines={2} style={[styles.txt_error, {color: '#fff'}]} i18nKey={state._errorEmail} />}
                     {typeof state._errorEmail === "object" &&
-                      <CText numberOfLines={2} style={styles.txt_error}>{state._errorEmail.message}</CText>}
+                      <CText numberOfLines={2} style={[styles.txt_error, {color: '#fff'}]}>{state._errorEmail.message}</CText>}
 
                     <Button block
-                      style={[styles.con_btn, { backgroundColor: '#C1A050', height: Devices.sH(5) }]}
+                      style={[styles.con_btn, { backgroundColor: '#313030' }]}
                       disabled={state._loading}
                       onPress={() => onFunction.onPressResetPassword(listRef)}>
                       {state._loading && <Spinner style={styles.spi_loading} color={Colors.WHITE_COLOR} size={'small'} />}
-                      <CText style={[styles.txt_btn, {fontSize: Devices.fS(12)}]} i18nKey={'send'} />
+                      <CText style={styles.txt_btn} i18nKey={'send'} />
                     </Button>
                   </Form>
                 )
@@ -161,6 +165,8 @@ export const ViewForgotPassword = ({
           />
         </Content>
       </Container>
+      </ImageBackground>
     </TouchableWithoutFeedback>
+    
   )
 }
