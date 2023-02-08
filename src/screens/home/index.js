@@ -671,12 +671,14 @@ class Home extends React.Component {
 
     /** Check for Update */
     this._onCheckForUpdate();
-
-    this._unsubscribe = this.props.navigation.addListener('focus', () => {
-      this.setState({ _loadingCart: !this.state._loadingCart });
-    });
-  }
-
+      this.props.navigation.addListener('tabPress', () => {
+        this._toggleAboutAuthor();
+      });
+      this._unsubscribe = this.props.navigation.addListener('focus', () => {
+        this.setState({ _loadingCart: !this.state._loadingCart });
+      });
+    }
+  
   componentWillUnmount() {
     this._unsubscribe();
   }

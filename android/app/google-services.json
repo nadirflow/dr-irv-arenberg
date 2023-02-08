@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:793140404870:android:c93d4ff7aa317203d26707",
         "android_client_info": {
-          "package_name": "com.insideout"
+          "package_name": "com.irv"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "793140404870-ns7ot31h9omcte7747pbd0567ue67l2i.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.insideout",
+            "package_name": "com.irv",
             "certificate_hash": "80d539bdd96024b3bb1d8b096b2ca1430ed492a9"
           }
         },
@@ -43,7 +43,7 @@
               "client_id": "793140404870-t0isjge2gh6p35dg43i7lvj9r92vsu1f.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "app.com.insideout"
+                "bundle_id": "app.com.irv"
               }
             }
           ]

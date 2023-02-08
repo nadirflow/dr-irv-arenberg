@@ -293,7 +293,7 @@ export const Configs = {
 
     /** RATING */
     ratingAppleAppID: '345345656',
-    ratingGooglePackageName: 'com.insideout', 
+    ratingGooglePackageName: 'com.irv', 
 
     /** STRIPE */
     stripeMethod: 'stripe',
