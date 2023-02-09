@@ -684,8 +684,8 @@ class Home extends React.Component {
   }
 
   shouldComponentUpdate(nextProps, nextState) {
-    if (this.props.setting && nextProps.setting && (nextState._about_author == this.state._about_author) && (nextState._details && this.state._details &&  nextState._details.name == this.state._details.name)) {
-      if ((nextProps.setting.home.length === this.props.setting.home.length) &&
+    if (nextProps && this.props.setting && nextProps.setting && (nextState._about_author == this.state._about_author) && (nextState._details && this.state._details &&  nextState._details.name == this.state._details.name)) {
+      if (nextProps.setting.home && (nextProps.setting.home.length === this.props.setting.home.length) &&
         this.props.cart.length === nextProps.cart.length &&
         nextState._loading === this.state._loading &&
         nextState._loadingCart === this.state._loadingCart
