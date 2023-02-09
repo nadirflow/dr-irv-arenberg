@@ -7,7 +7,7 @@
 /* LIBRARY */
 import React from 'react';
 import {
-  FlatList, TouchableWithoutFeedback, Keyboard, Text, ImageBackground
+  FlatList, TouchableWithoutFeedback, Keyboard, Text, ImageBackground, View
 } from 'react-native';
 import {
   Container, Content, Item, Input, Label, Button,
@@ -23,6 +23,7 @@ import { Colors } from '~/utils/colors';
 import { cStyles } from '~/utils/styles';
 /* STYLES */
 import styles from './style';
+import CHeader from '~/components/CHeader';
 
 
 
@@ -45,11 +46,31 @@ export const ViewForgotPassword = ({
   return (
     
     
-    <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
+    <View style={{flex:1}}>
+      <CHeader
+        
+        style={{backgroundColor:'#18504D', color:'#fff'}}
+        titleComponent={
+          <View style={[cStyles.row_justify_center, cStyles.flex_full]}>
+            <View
+              style={[
+                cStyles.column_align_center,
+                cStyles.column_justify_center,
+                { width: '100%' },
+              ]}>
+              <Text style={{color: '#fff', fontWeight:'700'}}>Reset Password</Text>
+            </View>
+          </View>
+        }
+        iconLeft_1={'chevron-left'}
+        iconRight_1={'none'}
+        
+        onPressLeft_1={onFunction.onPressBack}
+        
+      />
+     <ImageBackground source={Assets.wel} resizeMode='cover' style={{flex:1,  paddingTop:0, }}>
       
-      <ImageBackground source={Assets.wel} resizeMode='cover' style={{flex:1,  paddingTop:25, }}>
-      
-      <Container style={[cStyles.container_auth, {backgroundColor:''} ]}>
+      <Container style={[cStyles.container_auth, {backgroundColor:'rgba(24, 80, 77, 0.4)'} ]}>
         <Content style={cStyles.flex_full} contentContainerStyle={[cStyles.ph_20, styles.con_header]}>
           
 
@@ -70,7 +91,7 @@ export const ViewForgotPassword = ({
 
                     {/* <Item style={styles.con_input} floatingLabel last error={state._errorEmail !== ""}> */}
                       {/* <Label style={styles.con_label}><CText style={styles.txt_label} i18nKey={'email'} /></Label> */}
-                      <Input style={{ backgroundColor:'##313030', borderRadius:6, paddingHorizontal:15, marginTop:5}}
+                      <Input style={{ backgroundColor:'##313030', borderRadius:6, paddingHorizontal:15, marginTop:5, borderBottomColor: '#000', borderBottomWidth:1,}}
                         keyboardType={'email-address'}
                         value={state._email}
                         disabled={state._loading}
@@ -92,7 +113,7 @@ export const ViewForgotPassword = ({
                       <CText numberOfLines={2} style={[styles.txt_error, {color: '#fff'}]}>{state._errorEmail.message}</CText>}
 
                     <Button block
-                      style={[styles.con_btn, { backgroundColor: '#313030' }]}
+                      style={[styles.con_btn, { backgroundColor: '#18504D' }]}
                       disabled={state._loading}
                       onPress={() => onFunction.onPressResetPassword(listRef)}>
                       {state._loading && <Spinner style={styles.spi_loading} color={Colors.WHITE_COLOR} size={'small'} />}
@@ -166,7 +187,7 @@ export const ViewForgotPassword = ({
         </Content>
       </Container>
       </ImageBackground>
-    </TouchableWithoutFeedback>
+    </View>
     
   )
 }
