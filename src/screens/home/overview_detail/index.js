@@ -16,6 +16,7 @@ import { CRateStar } from '~/components/CRateStar';
 import { cStyles } from '~/utils/styles';
 import { useNavigation } from '@react-navigation/native';
 import { Devices } from '~/config';
+import CLoadingPlaceholder from '~/components/CLoadingPlaceholder';
 export class OverviewDetail extends React.Component {
   constructor(props) {
     super(props);
@@ -55,6 +56,8 @@ export class OverviewDetail extends React.Component {
     // console.log('hello');
     // console.log(this.props.snap_selected);
     return (
+      <>
+      {this.props.snap_selected ?
       <ScrollView style={[{flex:1, backgroundColor: '#18504D'}, cStyles.p_15, cStyles.br_tr_15,cStyles.br_tl_15]}>
         <View key={'asdads'}>
           <Text style={[cStyles.txt_title_header,{color:Colors.WHITE_COLOR}]}>{ this.props.snap_selected && this.props.snap_selected.name ? this.props.snap_selected.name : 'Title'}</Text>
@@ -86,6 +89,10 @@ export class OverviewDetail extends React.Component {
         
         </View>
       </ScrollView>
+        :
+        <CLoadingPlaceholder/>
+      }
+      </>                               
     )
   }
 
